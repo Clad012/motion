@@ -1,0 +1,33 @@
+# Dependencies and builds
+node_modules
+dist
+out
+
+# Secrets: API keys live in .env.local (see .env.example)
+.env
+.env.*
+!.env.example
+
+# Agent skills are restored from skills-lock.json (npx skills experimental_install);
+# they are third-party packages, not part of this repository.
+.claude/skills
+.agents
+.claude/settings.local.json
+
+# Not redistributed: third-party music beds (licence not documented), fetched by `pnpm assets`.
+public/yuniqa/audio/music/beats*.mp3
+
+# Heavy video clips (the 3D film shots from Google Flow): kept locally, not in git.
+public/**/*.mp4
+public/**/*.mov
+public/**/*.webm
+
+# OS and editors
+.DS_Store
+*.log
+.vscode
+.idea
+
+# Machine-specific agent context (paths on this computer)
+CLAUDE.local.md
+AGENTS.local.md

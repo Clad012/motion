@@ -1,0 +1,587 @@
+{
+  "voiceId": "jsScnYkNNda9Q1NES5nn",
+  "generatedAt": "2026-09-02T21:18:38.966Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "yuniqa/voiceover/le-test/hook.mp3",
+      "durationMs": 3297,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "J'ai",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "posé",
+          "startMs": 209,
+          "endMs": 430
+        },
+        {
+          "text": "la",
+          "startMs": 464,
+          "endMs": 522
+        },
+        {
+          "text": "même",
+          "startMs": 580,
+          "endMs": 731
+        },
+        {
+          "text": "question",
+          "startMs": 755,
+          "endMs": 1045
+        },
+        {
+          "text": "à",
+          "startMs": 1091,
+          "endMs": 1115
+        },
+        {
+          "text": "deux",
+          "startMs": 1196,
+          "endMs": 1312
+        },
+        {
+          "text": "IA.",
+          "startMs": 1347,
+          "endMs": 1718
+        },
+        {
+          "text": "Une",
+          "startMs": 1858,
+          "endMs": 2067
+        },
+        {
+          "text": "seule",
+          "startMs": 2101,
+          "endMs": 2322
+        },
+        {
+          "text": "a",
+          "startMs": 2345,
+          "endMs": 2368
+        },
+        {
+          "text": "fait",
+          "startMs": 2415,
+          "endMs": 2531
+        },
+        {
+          "text": "le",
+          "startMs": 2554,
+          "endMs": 2601
+        },
+        {
+          "text": "travail.",
+          "startMs": 2635,
+          "endMs": 3297
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "file": "yuniqa/voiceover/le-test/question.mp3",
+      "durationMs": 3111,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "La",
+          "startMs": 0,
+          "endMs": 163
+        },
+        {
+          "text": "question",
+          "startMs": 221,
+          "endMs": 580
+        },
+        {
+          "text": ":",
+          "startMs": 627,
+          "endMs": 662
+        },
+        {
+          "text": "trie",
+          "startMs": 708,
+          "endMs": 894
+        },
+        {
+          "text": "ma",
+          "startMs": 929,
+          "endMs": 1010
+        },
+        {
+          "text": "boîte",
+          "startMs": 1057,
+          "endMs": 1265
+        },
+        {
+          "text": "mail,",
+          "startMs": 1300,
+          "endMs": 1591
+        },
+        {
+          "text": "et",
+          "startMs": 1625,
+          "endMs": 1765
+        },
+        {
+          "text": "transforme-la",
+          "startMs": 1788,
+          "endMs": 2380
+        },
+        {
+          "text": "en",
+          "startMs": 2403,
+          "endMs": 2473
+        },
+        {
+          "text": "tâches.",
+          "startMs": 2543,
+          "endMs": 3111
+        }
+      ]
+    },
+    {
+      "id": "reponse-1",
+      "file": "yuniqa/voiceover/le-test/reponse-1.mp3",
+      "durationMs": 4830,
+      "tailMs": 350,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "La",
+          "startMs": 0,
+          "endMs": 139
+        },
+        {
+          "text": "première",
+          "startMs": 186,
+          "endMs": 522
+        },
+        {
+          "text": "me",
+          "startMs": 546,
+          "endMs": 615
+        },
+        {
+          "text": "sort",
+          "startMs": 662,
+          "endMs": 836
+        },
+        {
+          "text": "dix",
+          "startMs": 871,
+          "endMs": 987
+        },
+        {
+          "text": "conseils.",
+          "startMs": 1010,
+          "endMs": 1451
+        },
+        {
+          "text": "Créez",
+          "startMs": 1544,
+          "endMs": 1846
+        },
+        {
+          "text": "des",
+          "startMs": 1881,
+          "endMs": 1962
+        },
+        {
+          "text": "dossiers.",
+          "startMs": 1985,
+          "endMs": 2426
+        },
+        {
+          "text": "Utilisez",
+          "startMs": 2473,
+          "endMs": 2949
+        },
+        {
+          "text": "des",
+          "startMs": 2984,
+          "endMs": 3077
+        },
+        {
+          "text": "filtres.",
+          "startMs": 3100,
+          "endMs": 3471
+        },
+        {
+          "text": "J'ai",
+          "startMs": 3587,
+          "endMs": 3773
+        },
+        {
+          "text": "pas",
+          "startMs": 3820,
+          "endMs": 3936
+        },
+        {
+          "text": "demandé",
+          "startMs": 3959,
+          "endMs": 4238
+        },
+        {
+          "text": "un",
+          "startMs": 4284,
+          "endMs": 4331
+        },
+        {
+          "text": "cours.",
+          "startMs": 4389,
+          "endMs": 4830
+        }
+      ]
+    },
+    {
+      "id": "reponse-2",
+      "file": "yuniqa/voiceover/le-test/reponse-2.mp3",
+      "durationMs": 4180,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "La",
+          "startMs": 0,
+          "endMs": 139
+        },
+        {
+          "text": "deuxième",
+          "startMs": 209,
+          "endMs": 522
+        },
+        {
+          "text": "a",
+          "startMs": 546,
+          "endMs": 569
+        },
+        {
+          "text": "ouvert",
+          "startMs": 615,
+          "endMs": 824
+        },
+        {
+          "text": "ma",
+          "startMs": 848,
+          "endMs": 929
+        },
+        {
+          "text": "boîte.",
+          "startMs": 975,
+          "endMs": 1277
+        },
+        {
+          "text": "Douze",
+          "startMs": 1509,
+          "endMs": 1765
+        },
+        {
+          "text": "mails",
+          "startMs": 1788,
+          "endMs": 1985
+        },
+        {
+          "text": "lus.",
+          "startMs": 2009,
+          "endMs": 2206
+        },
+        {
+          "text": "Neuf",
+          "startMs": 2287,
+          "endMs": 2473
+        },
+        {
+          "text": "archivés.",
+          "startMs": 2554,
+          "endMs": 2995
+        },
+        {
+          "text": "Trois",
+          "startMs": 3042,
+          "endMs": 3286
+        },
+        {
+          "text": "tâches",
+          "startMs": 3320,
+          "endMs": 3553
+        },
+        {
+          "text": "créées.",
+          "startMs": 3576,
+          "endMs": 4180
+        }
+      ]
+    },
+    {
+      "id": "round2",
+      "file": "yuniqa/voiceover/le-test/round2.mp3",
+      "durationMs": 2461,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deuxième",
+          "startMs": 0,
+          "endMs": 372
+        },
+        {
+          "text": "question",
+          "startMs": 395,
+          "endMs": 755
+        },
+        {
+          "text": ":",
+          "startMs": 813,
+          "endMs": 836
+        },
+        {
+          "text": "préviens-moi",
+          "startMs": 894,
+          "endMs": 1405
+        },
+        {
+          "text": "si",
+          "startMs": 1440,
+          "endMs": 1544
+        },
+        {
+          "text": "ce",
+          "startMs": 1567,
+          "endMs": 1649
+        },
+        {
+          "text": "prix",
+          "startMs": 1695,
+          "endMs": 1858
+        },
+        {
+          "text": "baisse.",
+          "startMs": 1881,
+          "endMs": 2461
+        }
+      ]
+    },
+    {
+      "id": "round2-resultat",
+      "file": "yuniqa/voiceover/le-test/round2-resultat.mp3",
+      "durationMs": 4969,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "La",
+          "startMs": 0,
+          "endMs": 151
+        },
+        {
+          "text": "première",
+          "startMs": 197,
+          "endMs": 615
+        },
+        {
+          "text": ":",
+          "startMs": 639,
+          "endMs": 673
+        },
+        {
+          "text": "je",
+          "startMs": 789,
+          "endMs": 836
+        },
+        {
+          "text": "n'ai",
+          "startMs": 882,
+          "endMs": 975
+        },
+        {
+          "text": "pas",
+          "startMs": 998,
+          "endMs": 1115
+        },
+        {
+          "text": "accès",
+          "startMs": 1138,
+          "endMs": 1370
+        },
+        {
+          "text": "à",
+          "startMs": 1393,
+          "endMs": 1416
+        },
+        {
+          "text": "internet.",
+          "startMs": 1440,
+          "endMs": 1950
+        },
+        {
+          "text": "La",
+          "startMs": 1997,
+          "endMs": 2113
+        },
+        {
+          "text": "deuxième",
+          "startMs": 2171,
+          "endMs": 2577
+        },
+        {
+          "text": ":",
+          "startMs": 2601,
+          "endMs": 2624
+        },
+        {
+          "text": "alerte",
+          "startMs": 2763,
+          "endMs": 3204
+        },
+        {
+          "text": "posée,",
+          "startMs": 3262,
+          "endMs": 3657
+        },
+        {
+          "text": "elle",
+          "startMs": 3704,
+          "endMs": 3855
+        },
+        {
+          "text": "surveille",
+          "startMs": 3889,
+          "endMs": 4249
+        },
+        {
+          "text": "toute",
+          "startMs": 4272,
+          "endMs": 4447
+        },
+        {
+          "text": "seule.",
+          "startMs": 4470,
+          "endMs": 4969
+        }
+      ]
+    },
+    {
+      "id": "verdict",
+      "file": "yuniqa/voiceover/le-test/verdict.mp3",
+      "durationMs": 1207,
+      "tailMs": 500,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "L'une",
+          "startMs": 0,
+          "endMs": 267
+        },
+        {
+          "text": "parle.",
+          "startMs": 290,
+          "endMs": 580
+        },
+        {
+          "text": "L'autre",
+          "startMs": 639,
+          "endMs": 917
+        },
+        {
+          "text": "agit.",
+          "startMs": 940,
+          "endMs": 1207
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "file": "yuniqa/voiceover/le-test/reveal.mp3",
+      "durationMs": 1718,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Celle",
+          "startMs": 0,
+          "endMs": 313
+        },
+        {
+          "text": "qui",
+          "startMs": 337,
+          "endMs": 441
+        },
+        {
+          "text": "agit,",
+          "startMs": 488,
+          "endMs": 813
+        },
+        {
+          "text": "c'est",
+          "startMs": 859,
+          "endMs": 1033
+        },
+        {
+          "text": "Yuniqa.",
+          "startMs": 1068,
+          "endMs": 1718
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "yuniqa/voiceover/le-test/cta.mp3",
+      "durationMs": 2276,
+      "tailMs": 1200,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Fais",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "le",
+          "startMs": 197,
+          "endMs": 255
+        },
+        {
+          "text": "test",
+          "startMs": 302,
+          "endMs": 499
+        },
+        {
+          "text": "toi-même.",
+          "startMs": 522,
+          "endMs": 987
+        },
+        {
+          "text": "Le",
+          "startMs": 1103,
+          "endMs": 1231
+        },
+        {
+          "text": "lien",
+          "startMs": 1254,
+          "endMs": 1451
+        },
+        {
+          "text": "est",
+          "startMs": 1533,
+          "endMs": 1625
+        },
+        {
+          "text": "en",
+          "startMs": 1695,
+          "endMs": 1753
+        },
+        {
+          "text": "bio.",
+          "startMs": 1788,
+          "endMs": 2276
+        }
+      ]
+    }
+  ]
+}

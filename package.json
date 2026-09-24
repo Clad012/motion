@@ -1,0 +1,54 @@
+{
+  "name": "motion",
+  "version": "1.0.0",
+  "description": "A reusable Remotion system for vertical product videos: generic components and engine, plus the Yuniqa brand and its videos.",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/captions": "4.0.520",
+    "@remotion/cli": "4.0.520",
+    "@remotion/fonts": "4.0.520",
+    "@remotion/google-fonts": "4.0.520",
+    "@remotion/media": "4.0.520",
+    "@remotion/tailwind-v4": "4.0.520",
+    "@remotion/transitions": "4.0.520",
+    "@remotion/zod-types": "4.0.520",
+    "geist": "^1.7.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.520",
+    "tailwindcss": "4.0.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.520",
+    "@types/node": "^26.4.0",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "stills": "node --strip-types scripts/stills.mts",
+    "build": "remotion bundle",
+    "lint": "eslint src && tsc",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\" \"scripts/*.mts\"",
+    "upgrade": "remotion upgrade",
+    "new-video": "node --strip-types scripts/new-video.mts",
+    "voiceover": "node --env-file-if-exists=.env.local --strip-types scripts/voiceover.mts",
+    "sfx": "node --env-file-if-exists=.env.local --strip-types scripts/sfx.mts",
+    "images": "node --env-file-if-exists=.env.local --strip-types scripts/images.mts",
+    "assets": "node --strip-types scripts/fetch-assets.mts"
+  },
+  "sideEffects": [
+    "*.css",
+    "src/yuniqa/fonts.ts"
+  ],
+  "engines": {
+    "node": ">=24"
+  }
+}

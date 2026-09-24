@@ -1,0 +1,832 @@
+{
+  "voiceId": "jsScnYkNNda9Q1NES5nn",
+  "generatedAt": "2026-09-02T20:40:04.670Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "yuniqa/voiceover/apps-payantes/hook.mp3",
+      "durationMs": 5155,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Regarde",
+          "startMs": 0,
+          "endMs": 383
+        },
+        {
+          "text": "ton",
+          "startMs": 406,
+          "endMs": 499
+        },
+        {
+          "text": "t\u00e9l\u00e9phone.",
+          "startMs": 534,
+          "endMs": 1057
+        },
+        {
+          "text": "Six",
+          "startMs": 1196,
+          "endMs": 1463
+        },
+        {
+          "text": "apps",
+          "startMs": 1533,
+          "endMs": 1660
+        },
+        {
+          "text": "payantes.",
+          "startMs": 1683,
+          "endMs": 2148
+        },
+        {
+          "text": "Cinquante",
+          "startMs": 2345,
+          "endMs": 2786
+        },
+        {
+          "text": "euros",
+          "startMs": 2810,
+          "endMs": 2995
+        },
+        {
+          "text": "par",
+          "startMs": 3030,
+          "endMs": 3158
+        },
+        {
+          "text": "mois.",
+          "startMs": 3193,
+          "endMs": 3413
+        },
+        {
+          "text": "Pour",
+          "startMs": 3680,
+          "endMs": 3855
+        },
+        {
+          "text": "des",
+          "startMs": 3889,
+          "endMs": 4017
+        },
+        {
+          "text": "apps",
+          "startMs": 4075,
+          "endMs": 4191
+        },
+        {
+          "text": "que",
+          "startMs": 4214,
+          "endMs": 4296
+        },
+        {
+          "text": "t'ouvres",
+          "startMs": 4342,
+          "endMs": 4609
+        },
+        {
+          "text": "jamais.",
+          "startMs": 4632,
+          "endMs": 5155
+        }
+      ]
+    },
+    {
+      "id": "pile",
+      "file": "yuniqa/voiceover/apps-payantes/pile.mp3",
+      "durationMs": 5759,
+      "tailMs": 350,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Une",
+          "startMs": 0,
+          "endMs": 244
+        },
+        {
+          "text": "pour",
+          "startMs": 267,
+          "endMs": 383
+        },
+        {
+          "text": "les",
+          "startMs": 418,
+          "endMs": 511
+        },
+        {
+          "text": "t\u00e2ches.",
+          "startMs": 534,
+          "endMs": 929
+        },
+        {
+          "text": "Une",
+          "startMs": 1022,
+          "endMs": 1231
+        },
+        {
+          "text": "pour",
+          "startMs": 1254,
+          "endMs": 1382
+        },
+        {
+          "text": "les",
+          "startMs": 1405,
+          "endMs": 1486
+        },
+        {
+          "text": "notes.",
+          "startMs": 1509,
+          "endMs": 1811
+        },
+        {
+          "text": "Une",
+          "startMs": 1869,
+          "endMs": 2078
+        },
+        {
+          "text": "pour",
+          "startMs": 2101,
+          "endMs": 2218
+        },
+        {
+          "text": "le",
+          "startMs": 2252,
+          "endMs": 2310
+        },
+        {
+          "text": "budget.",
+          "startMs": 2357,
+          "endMs": 2717
+        },
+        {
+          "text": "Une",
+          "startMs": 2763,
+          "endMs": 2949
+        },
+        {
+          "text": "pour",
+          "startMs": 2972,
+          "endMs": 3088
+        },
+        {
+          "text": "les",
+          "startMs": 3123,
+          "endMs": 3204
+        },
+        {
+          "text": "repas.",
+          "startMs": 3239,
+          "endMs": 3576
+        },
+        {
+          "text": "Et",
+          "startMs": 3692,
+          "endMs": 3831
+        },
+        {
+          "text": "une",
+          "startMs": 3866,
+          "endMs": 4017
+        },
+        {
+          "text": "IA",
+          "startMs": 4040,
+          "endMs": 4122
+        },
+        {
+          "text": "qui",
+          "startMs": 4180,
+          "endMs": 4261
+        },
+        {
+          "text": "te",
+          "startMs": 4307,
+          "endMs": 4365
+        },
+        {
+          "text": "r\u00e9pond\u2026",
+          "startMs": 4412,
+          "endMs": 4783
+        },
+        {
+          "text": "mais",
+          "startMs": 4923,
+          "endMs": 5062
+        },
+        {
+          "text": "qui",
+          "startMs": 5085,
+          "endMs": 5166
+        },
+        {
+          "text": "fait",
+          "startMs": 5224,
+          "endMs": 5341
+        },
+        {
+          "text": "rien.",
+          "startMs": 5364,
+          "endMs": 5759
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "file": "yuniqa/voiceover/apps-payantes/turn.mp3",
+      "durationMs": 4969,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Et",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "si",
+          "startMs": 209,
+          "endMs": 313
+        },
+        {
+          "text": "tout",
+          "startMs": 383,
+          "endMs": 534
+        },
+        {
+          "text": "\u00e7a",
+          "startMs": 557,
+          "endMs": 650
+        },
+        {
+          "text": "tenait",
+          "startMs": 720,
+          "endMs": 952
+        },
+        {
+          "text": "dans",
+          "startMs": 987,
+          "endMs": 1091
+        },
+        {
+          "text": "une",
+          "startMs": 1173,
+          "endMs": 1254
+        },
+        {
+          "text": "seule",
+          "startMs": 1277,
+          "endMs": 1451
+        },
+        {
+          "text": "app",
+          "startMs": 1474,
+          "endMs": 1614
+        },
+        {
+          "text": "?",
+          "startMs": 1683,
+          "endMs": 1707
+        },
+        {
+          "text": "Une",
+          "startMs": 1939,
+          "endMs": 2159
+        },
+        {
+          "text": "app",
+          "startMs": 2183,
+          "endMs": 2276
+        },
+        {
+          "text": "qui",
+          "startMs": 2334,
+          "endMs": 2403
+        },
+        {
+          "text": "se",
+          "startMs": 2461,
+          "endMs": 2554
+        },
+        {
+          "text": "souvient,",
+          "startMs": 2601,
+          "endMs": 2972
+        },
+        {
+          "text": "qui",
+          "startMs": 3053,
+          "endMs": 3170
+        },
+        {
+          "text": "surveille,",
+          "startMs": 3228,
+          "endMs": 3727
+        },
+        {
+          "text": "et",
+          "startMs": 3762,
+          "endMs": 3878
+        },
+        {
+          "text": "qui",
+          "startMs": 3913,
+          "endMs": 4005
+        },
+        {
+          "text": "agit",
+          "startMs": 4052,
+          "endMs": 4272
+        },
+        {
+          "text": "\u00e0",
+          "startMs": 4296,
+          "endMs": 4319
+        },
+        {
+          "text": "ta",
+          "startMs": 4365,
+          "endMs": 4447
+        },
+        {
+          "text": "place.",
+          "startMs": 4481,
+          "endMs": 4969
+        }
+      ]
+    },
+    {
+      "id": "demo-mail",
+      "file": "yuniqa/voiceover/apps-payantes/demo-mail.mp3",
+      "durationMs": 4365,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Tu",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "lui",
+          "startMs": 209,
+          "endMs": 325
+        },
+        {
+          "text": "dis",
+          "startMs": 372,
+          "endMs": 557
+        },
+        {
+          "text": ":",
+          "startMs": 604,
+          "endMs": 650
+        },
+        {
+          "text": "r\u00e9sume",
+          "startMs": 813,
+          "endMs": 1149
+        },
+        {
+          "text": "mes",
+          "startMs": 1173,
+          "endMs": 1265
+        },
+        {
+          "text": "mails",
+          "startMs": 1289,
+          "endMs": 1463
+        },
+        {
+          "text": "d'aujourd'hui,",
+          "startMs": 1486,
+          "endMs": 2032
+        },
+        {
+          "text": "et",
+          "startMs": 2067,
+          "endMs": 2194
+        },
+        {
+          "text": "transforme-les",
+          "startMs": 2218,
+          "endMs": 2844
+        },
+        {
+          "text": "en",
+          "startMs": 2879,
+          "endMs": 2937
+        },
+        {
+          "text": "t\u00e2ches.",
+          "startMs": 2984,
+          "endMs": 3355
+        },
+        {
+          "text": "C'est",
+          "startMs": 3471,
+          "endMs": 3692
+        },
+        {
+          "text": "fait.",
+          "startMs": 3715,
+          "endMs": 4365
+        }
+      ]
+    },
+    {
+      "id": "demo-rapid",
+      "file": "yuniqa/voiceover/apps-payantes/demo-rapid.mp3",
+      "durationMs": 4412,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Pr\u00e9viens-moi",
+          "startMs": 0,
+          "endMs": 546
+        },
+        {
+          "text": "quand",
+          "startMs": 580,
+          "endMs": 731
+        },
+        {
+          "text": "ce",
+          "startMs": 755,
+          "endMs": 836
+        },
+        {
+          "text": "prix",
+          "startMs": 882,
+          "endMs": 1045
+        },
+        {
+          "text": "baisse.",
+          "startMs": 1068,
+          "endMs": 1416
+        },
+        {
+          "text": "Ajoute",
+          "startMs": 1533,
+          "endMs": 1858
+        },
+        {
+          "text": "cette",
+          "startMs": 1881,
+          "endMs": 2055
+        },
+        {
+          "text": "d\u00e9pense.",
+          "startMs": 2078,
+          "endMs": 2554
+        },
+        {
+          "text": "Planifie",
+          "startMs": 2786,
+          "endMs": 3228
+        },
+        {
+          "text": "mes",
+          "startMs": 3262,
+          "endMs": 3367
+        },
+        {
+          "text": "repas",
+          "startMs": 3402,
+          "endMs": 3634
+        },
+        {
+          "text": "de",
+          "startMs": 3657,
+          "endMs": 3704
+        },
+        {
+          "text": "la",
+          "startMs": 3738,
+          "endMs": 3808
+        },
+        {
+          "text": "semaine.",
+          "startMs": 3855,
+          "endMs": 4412
+        }
+      ]
+    },
+    {
+      "id": "demo-subs",
+      "file": "yuniqa/voiceover/apps-payantes/demo-subs.mp3",
+      "durationMs": 6641,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Et",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "pendant",
+          "startMs": 209,
+          "endMs": 441
+        },
+        {
+          "text": "qu'il",
+          "startMs": 464,
+          "endMs": 592
+        },
+        {
+          "text": "range",
+          "startMs": 639,
+          "endMs": 836
+        },
+        {
+          "text": "tes",
+          "startMs": 859,
+          "endMs": 964
+        },
+        {
+          "text": "d\u00e9penses,",
+          "startMs": 987,
+          "endMs": 1440
+        },
+        {
+          "text": "il",
+          "startMs": 1498,
+          "endMs": 1602
+        },
+        {
+          "text": "rep\u00e8re",
+          "startMs": 1695,
+          "endMs": 1997
+        },
+        {
+          "text": "tes",
+          "startMs": 2020,
+          "endMs": 2136
+        },
+        {
+          "text": "abonnements",
+          "startMs": 2194,
+          "endMs": 2577
+        },
+        {
+          "text": ":",
+          "startMs": 2612,
+          "endMs": 2635
+        },
+        {
+          "text": "il",
+          "startMs": 2752,
+          "endMs": 2868
+        },
+        {
+          "text": "les",
+          "startMs": 2914,
+          "endMs": 2995
+        },
+        {
+          "text": "liste",
+          "startMs": 3019,
+          "endMs": 3239
+        },
+        {
+          "text": "tous,",
+          "startMs": 3262,
+          "endMs": 3587
+        },
+        {
+          "text": "te",
+          "startMs": 3646,
+          "endMs": 3738
+        },
+        {
+          "text": "pr\u00e9vient",
+          "startMs": 3785,
+          "endMs": 4191
+        },
+        {
+          "text": "avant",
+          "startMs": 4238,
+          "endMs": 4470
+        },
+        {
+          "text": "chaque",
+          "startMs": 4493,
+          "endMs": 4702
+        },
+        {
+          "text": "pr\u00e9l\u00e8vement,",
+          "startMs": 4725,
+          "endMs": 5224
+        },
+        {
+          "text": "et",
+          "startMs": 5283,
+          "endMs": 5433
+        },
+        {
+          "text": "te",
+          "startMs": 5468,
+          "endMs": 5550
+        },
+        {
+          "text": "dit",
+          "startMs": 5608,
+          "endMs": 5712
+        },
+        {
+          "text": "lesquels",
+          "startMs": 5735,
+          "endMs": 6002
+        },
+        {
+          "text": "annuler.",
+          "startMs": 6026,
+          "endMs": 6641
+        }
+      ]
+    },
+    {
+      "id": "demo-sleep",
+      "file": "yuniqa/voiceover/apps-payantes/demo-sleep.mp3",
+      "durationMs": 3901,
+      "tailMs": 350,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Et",
+          "startMs": 0,
+          "endMs": 186
+        },
+        {
+          "text": "pendant",
+          "startMs": 221,
+          "endMs": 464
+        },
+        {
+          "text": "que",
+          "startMs": 488,
+          "endMs": 569
+        },
+        {
+          "text": "tu",
+          "startMs": 615,
+          "endMs": 720
+        },
+        {
+          "text": "dors,",
+          "startMs": 789,
+          "endMs": 1033
+        },
+        {
+          "text": "il",
+          "startMs": 1115,
+          "endMs": 1231
+        },
+        {
+          "text": "trie",
+          "startMs": 1277,
+          "endMs": 1416
+        },
+        {
+          "text": "ta",
+          "startMs": 1451,
+          "endMs": 1544
+        },
+        {
+          "text": "bo\u00eete",
+          "startMs": 1591,
+          "endMs": 1788
+        },
+        {
+          "text": "mail,",
+          "startMs": 1823,
+          "endMs": 2090
+        },
+        {
+          "text": "et",
+          "startMs": 2125,
+          "endMs": 2252
+        },
+        {
+          "text": "te",
+          "startMs": 2287,
+          "endMs": 2357
+        },
+        {
+          "text": "remonte",
+          "startMs": 2415,
+          "endMs": 2694
+        },
+        {
+          "text": "seulement",
+          "startMs": 2717,
+          "endMs": 3053
+        },
+        {
+          "text": "ce",
+          "startMs": 3077,
+          "endMs": 3146
+        },
+        {
+          "text": "qui",
+          "startMs": 3204,
+          "endMs": 3286
+        },
+        {
+          "text": "compte.",
+          "startMs": 3344,
+          "endMs": 3901
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "file": "yuniqa/voiceover/apps-payantes/reveal.mp3",
+      "durationMs": 2601,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Une",
+          "startMs": 0,
+          "endMs": 279
+        },
+        {
+          "text": "app.",
+          "startMs": 302,
+          "endMs": 522
+        },
+        {
+          "text": "Un",
+          "startMs": 569,
+          "endMs": 685
+        },
+        {
+          "text": "abonnement.",
+          "startMs": 755,
+          "endMs": 1161
+        },
+        {
+          "text": "\u00c7a",
+          "startMs": 1277,
+          "endMs": 1382
+        },
+        {
+          "text": "s'appelle",
+          "startMs": 1428,
+          "endMs": 1834
+        },
+        {
+          "text": "Yuniqa.",
+          "startMs": 1950,
+          "endMs": 2601
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "yuniqa/voiceover/apps-payantes/cta.mp3",
+      "durationMs": 1811,
+      "tailMs": 1200,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Teste-le",
+          "startMs": 0,
+          "endMs": 395
+        },
+        {
+          "text": "maintenant.",
+          "startMs": 441,
+          "endMs": 801
+        },
+        {
+          "text": "Le",
+          "startMs": 871,
+          "endMs": 940
+        },
+        {
+          "text": "lien",
+          "startMs": 975,
+          "endMs": 1149
+        },
+        {
+          "text": "est",
+          "startMs": 1184,
+          "endMs": 1254
+        },
+        {
+          "text": "en",
+          "startMs": 1324,
+          "endMs": 1370
+        },
+        {
+          "text": "bio.",
+          "startMs": 1405,
+          "endMs": 1811
+        }
+      ]
+    }
+  ]
+}

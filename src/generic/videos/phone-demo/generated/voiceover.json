@@ -1,0 +1,242 @@
+{
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "generatedAt": "2026-09-24T14:09:26.535Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "generic/voiceover/phone-demo/hook.mp3",
+      "durationMs": 3576,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Two",
+          "startMs": 0,
+          "endMs": 232
+        },
+        {
+          "text": "hundred",
+          "startMs": 302,
+          "endMs": 580
+        },
+        {
+          "text": "unread",
+          "startMs": 662,
+          "endMs": 998
+        },
+        {
+          "text": "emails.",
+          "startMs": 1057,
+          "endMs": 1649
+        },
+        {
+          "text": "One",
+          "startMs": 1811,
+          "endMs": 2020
+        },
+        {
+          "text": "message",
+          "startMs": 2055,
+          "endMs": 2392
+        },
+        {
+          "text": "fixes",
+          "startMs": 2426,
+          "endMs": 2775
+        },
+        {
+          "text": "it.",
+          "startMs": 2833,
+          "endMs": 3576
+        }
+      ]
+    },
+    {
+      "id": "ask",
+      "file": "generic/voiceover/phone-demo/ask.mp3",
+      "durationMs": 4180,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "I",
+          "startMs": 0,
+          "endMs": 116
+        },
+        {
+          "text": "type:",
+          "startMs": 209,
+          "endMs": 522
+        },
+        {
+          "text": "sort",
+          "startMs": 639,
+          "endMs": 894
+        },
+        {
+          "text": "my",
+          "startMs": 940,
+          "endMs": 1057
+        },
+        {
+          "text": "inbox,",
+          "startMs": 1138,
+          "endMs": 1625
+        },
+        {
+          "text": "and",
+          "startMs": 1649,
+          "endMs": 1776
+        },
+        {
+          "text": "turn",
+          "startMs": 1834,
+          "endMs": 2078
+        },
+        {
+          "text": "what",
+          "startMs": 2136,
+          "endMs": 2264
+        },
+        {
+          "text": "matters",
+          "startMs": 2310,
+          "endMs": 2601
+        },
+        {
+          "text": "into",
+          "startMs": 2635,
+          "endMs": 2798
+        },
+        {
+          "text": "tasks.",
+          "startMs": 2856,
+          "endMs": 4180
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "file": "generic/voiceover/phone-demo/answer.mp3",
+      "durationMs": 5155,
+      "tailMs": 500,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Twelve",
+          "startMs": 0,
+          "endMs": 360
+        },
+        {
+          "text": "seconds",
+          "startMs": 395,
+          "endMs": 708
+        },
+        {
+          "text": "later:",
+          "startMs": 766,
+          "endMs": 1242
+        },
+        {
+          "text": "read,",
+          "startMs": 1405,
+          "endMs": 1788
+        },
+        {
+          "text": "archived,",
+          "startMs": 1858,
+          "endMs": 2485
+        },
+        {
+          "text": "and",
+          "startMs": 2508,
+          "endMs": 2624
+        },
+        {
+          "text": "three",
+          "startMs": 2682,
+          "endMs": 2914
+        },
+        {
+          "text": "tasks",
+          "startMs": 2961,
+          "endMs": 3344
+        },
+        {
+          "text": "with",
+          "startMs": 3379,
+          "endMs": 3506
+        },
+        {
+          "text": "the",
+          "startMs": 3541,
+          "endMs": 3611
+        },
+        {
+          "text": "right",
+          "startMs": 3657,
+          "endMs": 3855
+        },
+        {
+          "text": "deadlines.",
+          "startMs": 3889,
+          "endMs": 5155
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "file": "generic/voiceover/phone-demo/end.mp3",
+      "durationMs": 3437,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Swap",
+          "startMs": 0,
+          "endMs": 383
+        },
+        {
+          "text": "the",
+          "startMs": 453,
+          "endMs": 522
+        },
+        {
+          "text": "words,",
+          "startMs": 569,
+          "endMs": 1022
+        },
+        {
+          "text": "keep",
+          "startMs": 1115,
+          "endMs": 1324
+        },
+        {
+          "text": "the",
+          "startMs": 1382,
+          "endMs": 1451
+        },
+        {
+          "text": "phone.",
+          "startMs": 1498,
+          "endMs": 1950
+        },
+        {
+          "text": "Link",
+          "startMs": 2218,
+          "endMs": 2461
+        },
+        {
+          "text": "in",
+          "startMs": 2531,
+          "endMs": 2624
+        },
+        {
+          "text": "bio.",
+          "startMs": 2705,
+          "endMs": 3437
+        }
+      ]
+    }
+  ]
+}

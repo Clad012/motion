@@ -1,0 +1,665 @@
+{
+  "voiceId": "jsScnYkNNda9Q1NES5nn",
+  "generatedAt": "2026-09-03T14:39:48.211Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "yuniqa/voiceover/retour/hook.mp3",
+      "durationMs": 3529,
+      "tailMs": 250,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Tu",
+          "startMs": 0,
+          "endMs": 151
+        },
+        {
+          "text": "coupes",
+          "startMs": 209,
+          "endMs": 499
+        },
+        {
+          "text": "ton",
+          "startMs": 639,
+          "endMs": 743
+        },
+        {
+          "text": "téléphone",
+          "startMs": 778,
+          "endMs": 1207
+        },
+        {
+          "text": "deux",
+          "startMs": 1242,
+          "endMs": 1370
+        },
+        {
+          "text": "jours.",
+          "startMs": 1405,
+          "endMs": 1741
+        },
+        {
+          "text": "Regarde",
+          "startMs": 1904,
+          "endMs": 2252
+        },
+        {
+          "text": "ce",
+          "startMs": 2276,
+          "endMs": 2357
+        },
+        {
+          "text": "qui",
+          "startMs": 2403,
+          "endMs": 2485
+        },
+        {
+          "text": "t'attend",
+          "startMs": 2531,
+          "endMs": 2833
+        },
+        {
+          "text": "au",
+          "startMs": 2856,
+          "endMs": 2902
+        },
+        {
+          "text": "retour.",
+          "startMs": 2926,
+          "endMs": 3529
+        }
+      ]
+    },
+    {
+      "id": "chaos",
+      "file": "yuniqa/voiceover/retour/chaos.mp3",
+      "durationMs": 3529,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deux",
+          "startMs": 0,
+          "endMs": 186
+        },
+        {
+          "text": "cent",
+          "startMs": 209,
+          "endMs": 348
+        },
+        {
+          "text": "trente",
+          "startMs": 372,
+          "endMs": 580
+        },
+        {
+          "text": "mails.",
+          "startMs": 604,
+          "endMs": 906
+        },
+        {
+          "text": "Quatorze",
+          "startMs": 1103,
+          "endMs": 1486
+        },
+        {
+          "text": "notifs.",
+          "startMs": 1509,
+          "endMs": 1939
+        },
+        {
+          "text": "Et",
+          "startMs": 2171,
+          "endMs": 2310
+        },
+        {
+          "text": "l'urgent,",
+          "startMs": 2345,
+          "endMs": 2694
+        },
+        {
+          "text": "noyé",
+          "startMs": 2728,
+          "endMs": 2995
+        },
+        {
+          "text": "au",
+          "startMs": 3019,
+          "endMs": 3065
+        },
+        {
+          "text": "milieu.",
+          "startMs": 3111,
+          "endMs": 3529
+        }
+      ]
+    },
+    {
+      "id": "tri",
+      "file": "yuniqa/voiceover/retour/tri.mp3",
+      "durationMs": 1997,
+      "tailMs": 350,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Et",
+          "startMs": 0,
+          "endMs": 151
+        },
+        {
+          "text": "tu",
+          "startMs": 174,
+          "endMs": 267
+        },
+        {
+          "text": "passes",
+          "startMs": 337,
+          "endMs": 662
+        },
+        {
+          "text": "ton",
+          "startMs": 708,
+          "endMs": 824
+        },
+        {
+          "text": "dimanche",
+          "startMs": 871,
+          "endMs": 1184
+        },
+        {
+          "text": "soir",
+          "startMs": 1207,
+          "endMs": 1393
+        },
+        {
+          "text": "à",
+          "startMs": 1440,
+          "endMs": 1463
+        },
+        {
+          "text": "trier.",
+          "startMs": 1498,
+          "endMs": 1997
+        }
+      ]
+    },
+    {
+      "id": "bascule",
+      "file": "yuniqa/voiceover/retour/bascule.mp3",
+      "durationMs": 3251,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Même",
+          "startMs": 0,
+          "endMs": 221
+        },
+        {
+          "text": "week-end.",
+          "startMs": 244,
+          "endMs": 662
+        },
+        {
+          "text": "Même",
+          "startMs": 755,
+          "endMs": 964
+        },
+        {
+          "text": "boîte",
+          "startMs": 987,
+          "endMs": 1173
+        },
+        {
+          "text": "mail.",
+          "startMs": 1207,
+          "endMs": 1486
+        },
+        {
+          "text": "Mais",
+          "startMs": 1683,
+          "endMs": 1811
+        },
+        {
+          "text": "cette",
+          "startMs": 1834,
+          "endMs": 2009
+        },
+        {
+          "text": "fois,",
+          "startMs": 2032,
+          "endMs": 2264
+        },
+        {
+          "text": "quelqu'un",
+          "startMs": 2322,
+          "endMs": 2647
+        },
+        {
+          "text": "a",
+          "startMs": 2705,
+          "endMs": 2752
+        },
+        {
+          "text": "veillé.",
+          "startMs": 2821,
+          "endMs": 3251
+        }
+      ]
+    },
+    {
+      "id": "brief",
+      "file": "yuniqa/voiceover/retour/brief.mp3",
+      "durationMs": 2833,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Bon",
+          "startMs": 0,
+          "endMs": 197
+        },
+        {
+          "text": "retour.",
+          "startMs": 255,
+          "endMs": 720
+        },
+        {
+          "text": "Voici",
+          "startMs": 836,
+          "endMs": 1115
+        },
+        {
+          "text": "ce",
+          "startMs": 1161,
+          "endMs": 1242
+        },
+        {
+          "text": "qui",
+          "startMs": 1289,
+          "endMs": 1370
+        },
+        {
+          "text": "s'est",
+          "startMs": 1405,
+          "endMs": 1544
+        },
+        {
+          "text": "passé",
+          "startMs": 1567,
+          "endMs": 1800
+        },
+        {
+          "text": "pendant",
+          "startMs": 1858,
+          "endMs": 2090
+        },
+        {
+          "text": "ton",
+          "startMs": 2113,
+          "endMs": 2206
+        },
+        {
+          "text": "absence.",
+          "startMs": 2264,
+          "endMs": 2833
+        }
+      ]
+    },
+    {
+      "id": "traite",
+      "file": "yuniqa/voiceover/retour/traite.mp3",
+      "durationMs": 4876,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deux",
+          "startMs": 0,
+          "endMs": 221
+        },
+        {
+          "text": "cent",
+          "startMs": 244,
+          "endMs": 395
+        },
+        {
+          "text": "douze",
+          "startMs": 418,
+          "endMs": 580
+        },
+        {
+          "text": "mails",
+          "startMs": 604,
+          "endMs": 801
+        },
+        {
+          "text": "traités",
+          "startMs": 824,
+          "endMs": 1149
+        },
+        {
+          "text": "pendant",
+          "startMs": 1173,
+          "endMs": 1393
+        },
+        {
+          "text": "que",
+          "startMs": 1416,
+          "endMs": 1509
+        },
+        {
+          "text": "tu",
+          "startMs": 1544,
+          "endMs": 1625
+        },
+        {
+          "text": "dormais.",
+          "startMs": 1672,
+          "endMs": 2055
+        },
+        {
+          "text": "Neuf",
+          "startMs": 2218,
+          "endMs": 2392
+        },
+        {
+          "text": "factures",
+          "startMs": 2415,
+          "endMs": 2821
+        },
+        {
+          "text": "classées.",
+          "startMs": 2937,
+          "endMs": 3390
+        },
+        {
+          "text": "Trois",
+          "startMs": 3657,
+          "endMs": 3901
+        },
+        {
+          "text": "abonnements",
+          "startMs": 3971,
+          "endMs": 4319
+        },
+        {
+          "text": "surveillés.",
+          "startMs": 4342,
+          "endMs": 4876
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "file": "yuniqa/voiceover/retour/attention.mp3",
+      "durationMs": 2647,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Et",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "seulement",
+          "startMs": 221,
+          "endMs": 557
+        },
+        {
+          "text": "trois",
+          "startMs": 580,
+          "endMs": 778
+        },
+        {
+          "text": "choses",
+          "startMs": 801,
+          "endMs": 1161
+        },
+        {
+          "text": "demandent",
+          "startMs": 1277,
+          "endMs": 1834
+        },
+        {
+          "text": "ta",
+          "startMs": 1869,
+          "endMs": 1950
+        },
+        {
+          "text": "réponse.",
+          "startMs": 2009,
+          "endMs": 2647
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "file": "yuniqa/voiceover/retour/actions.mp3",
+      "durationMs": 6455,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Marc",
+          "startMs": 0,
+          "endMs": 325
+        },
+        {
+          "text": "attend",
+          "startMs": 383,
+          "endMs": 569
+        },
+        {
+          "text": "le",
+          "startMs": 592,
+          "endMs": 650
+        },
+        {
+          "text": "devis,",
+          "startMs": 708,
+          "endMs": 1068
+        },
+        {
+          "text": "la",
+          "startMs": 1115,
+          "endMs": 1184
+        },
+        {
+          "text": "réponse",
+          "startMs": 1242,
+          "endMs": 1614
+        },
+        {
+          "text": "est",
+          "startMs": 1637,
+          "endMs": 1707
+        },
+        {
+          "text": "déjà",
+          "startMs": 1730,
+          "endMs": 1962
+        },
+        {
+          "text": "rédigée.",
+          "startMs": 1997,
+          "endMs": 2519
+        },
+        {
+          "text": "Netflix",
+          "startMs": 2833,
+          "endMs": 3297
+        },
+        {
+          "text": "augmente.",
+          "startMs": 3367,
+          "endMs": 3855
+        },
+        {
+          "text": "Une",
+          "startMs": 3913,
+          "endMs": 4098
+        },
+        {
+          "text": "tâche",
+          "startMs": 4133,
+          "endMs": 4389
+        },
+        {
+          "text": "en",
+          "startMs": 4412,
+          "endMs": 4458
+        },
+        {
+          "text": "retard.",
+          "startMs": 4505,
+          "endMs": 5027
+        },
+        {
+          "text": "Deux",
+          "startMs": 5224,
+          "endMs": 5387
+        },
+        {
+          "text": "minutes,",
+          "startMs": 5410,
+          "endMs": 5782
+        },
+        {
+          "text": "c'est",
+          "startMs": 5828,
+          "endMs": 5991
+        },
+        {
+          "text": "réglé.",
+          "startMs": 6014,
+          "endMs": 6455
+        }
+      ]
+    },
+    {
+      "id": "verdict",
+      "file": "yuniqa/voiceover/retour/verdict.mp3",
+      "durationMs": 1533,
+      "tailMs": 450,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deux",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "heures",
+          "startMs": 244,
+          "endMs": 383
+        },
+        {
+          "text": "de",
+          "startMs": 406,
+          "endMs": 464
+        },
+        {
+          "text": "tri.",
+          "startMs": 511,
+          "endMs": 778
+        },
+        {
+          "text": "Ou",
+          "startMs": 836,
+          "endMs": 929
+        },
+        {
+          "text": "deux",
+          "startMs": 998,
+          "endMs": 1103
+        },
+        {
+          "text": "minutes.",
+          "startMs": 1126,
+          "endMs": 1533
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "file": "yuniqa/voiceover/retour/reveal.mp3",
+      "durationMs": 1254,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Ça",
+          "startMs": 0,
+          "endMs": 139
+        },
+        {
+          "text": "s'appelle",
+          "startMs": 186,
+          "endMs": 557
+        },
+        {
+          "text": "Yuniqa.",
+          "startMs": 604,
+          "endMs": 1254
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "yuniqa/voiceover/retour/cta.mp3",
+      "durationMs": 2461,
+      "tailMs": 1100,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Pars",
+          "startMs": 0,
+          "endMs": 244
+        },
+        {
+          "text": "tranquille",
+          "startMs": 267,
+          "endMs": 673
+        },
+        {
+          "text": "ce",
+          "startMs": 708,
+          "endMs": 778
+        },
+        {
+          "text": "week-end.",
+          "startMs": 836,
+          "endMs": 1254
+        },
+        {
+          "text": "Le",
+          "startMs": 1370,
+          "endMs": 1463
+        },
+        {
+          "text": "lien",
+          "startMs": 1486,
+          "endMs": 1660
+        },
+        {
+          "text": "est",
+          "startMs": 1718,
+          "endMs": 1788
+        },
+        {
+          "text": "en",
+          "startMs": 1858,
+          "endMs": 1904
+        },
+        {
+          "text": "bio.",
+          "startMs": 1939,
+          "endMs": 2461
+        }
+      ]
+    }
+  ]
+}

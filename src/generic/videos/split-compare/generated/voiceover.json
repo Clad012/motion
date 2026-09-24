@@ -1,0 +1,266 @@
+{
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "generatedAt": "2026-09-24T14:09:32.949Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "generic/voiceover/split-compare/hook.mp3",
+      "durationMs": 3622,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Same",
+          "startMs": 0,
+          "endMs": 313
+        },
+        {
+          "text": "request,",
+          "startMs": 360,
+          "endMs": 940
+        },
+        {
+          "text": "two",
+          "startMs": 987,
+          "endMs": 1161
+        },
+        {
+          "text": "assistants.",
+          "startMs": 1231,
+          "endMs": 1950
+        },
+        {
+          "text": "Only",
+          "startMs": 2310,
+          "endMs": 2531
+        },
+        {
+          "text": "one",
+          "startMs": 2601,
+          "endMs": 2740
+        },
+        {
+          "text": "does",
+          "startMs": 2775,
+          "endMs": 2926
+        },
+        {
+          "text": "the",
+          "startMs": 2972,
+          "endMs": 3042
+        },
+        {
+          "text": "work.",
+          "startMs": 3088,
+          "endMs": 3622
+        }
+      ]
+    },
+    {
+      "id": "before",
+      "file": "generic/voiceover/split-compare/before.mp3",
+      "durationMs": 3669,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 151
+        },
+        {
+          "text": "first",
+          "startMs": 209,
+          "endMs": 464
+        },
+        {
+          "text": "one",
+          "startMs": 522,
+          "endMs": 685
+        },
+        {
+          "text": "sends",
+          "startMs": 731,
+          "endMs": 998
+        },
+        {
+          "text": "ten",
+          "startMs": 1057,
+          "endMs": 1265
+        },
+        {
+          "text": "tips,",
+          "startMs": 1347,
+          "endMs": 1834
+        },
+        {
+          "text": "and",
+          "startMs": 1904,
+          "endMs": 2043
+        },
+        {
+          "text": "leaves",
+          "startMs": 2113,
+          "endMs": 2334
+        },
+        {
+          "text": "the",
+          "startMs": 2380,
+          "endMs": 2450
+        },
+        {
+          "text": "work",
+          "startMs": 2485,
+          "endMs": 2682
+        },
+        {
+          "text": "to",
+          "startMs": 2740,
+          "endMs": 2786
+        },
+        {
+          "text": "you.",
+          "startMs": 2868,
+          "endMs": 3669
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "file": "generic/voiceover/split-compare/after.mp3",
+      "durationMs": 4040,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 174
+        },
+        {
+          "text": "second",
+          "startMs": 232,
+          "endMs": 522
+        },
+        {
+          "text": "one",
+          "startMs": 592,
+          "endMs": 755
+        },
+        {
+          "text": "opens",
+          "startMs": 801,
+          "endMs": 1103
+        },
+        {
+          "text": "the",
+          "startMs": 1149,
+          "endMs": 1219
+        },
+        {
+          "text": "inbox,",
+          "startMs": 1289,
+          "endMs": 1800
+        },
+        {
+          "text": "clears",
+          "startMs": 1858,
+          "endMs": 2159
+        },
+        {
+          "text": "it,",
+          "startMs": 2218,
+          "endMs": 2461
+        },
+        {
+          "text": "and",
+          "startMs": 2577,
+          "endMs": 2717
+        },
+        {
+          "text": "books",
+          "startMs": 2775,
+          "endMs": 3007
+        },
+        {
+          "text": "the",
+          "startMs": 3053,
+          "endMs": 3123
+        },
+        {
+          "text": "call.",
+          "startMs": 3181,
+          "endMs": 4040
+        }
+      ]
+    },
+    {
+      "id": "verdict",
+      "file": "generic/voiceover/split-compare/verdict.mp3",
+      "durationMs": 2368,
+      "tailMs": 500,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "One",
+          "startMs": 0,
+          "endMs": 279
+        },
+        {
+          "text": "talks.",
+          "startMs": 325,
+          "endMs": 836
+        },
+        {
+          "text": "The",
+          "startMs": 929,
+          "endMs": 1045
+        },
+        {
+          "text": "other",
+          "startMs": 1115,
+          "endMs": 1335
+        },
+        {
+          "text": "acts.",
+          "startMs": 1405,
+          "endMs": 2368
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "file": "generic/voiceover/split-compare/end.mp3",
+      "durationMs": 1486,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Pick",
+          "startMs": 0,
+          "endMs": 244
+        },
+        {
+          "text": "the",
+          "startMs": 313,
+          "endMs": 383
+        },
+        {
+          "text": "one",
+          "startMs": 453,
+          "endMs": 615
+        },
+        {
+          "text": "that",
+          "startMs": 650,
+          "endMs": 778
+        },
+        {
+          "text": "acts.",
+          "startMs": 836,
+          "endMs": 1486
+        }
+      ]
+    }
+  ]
+}

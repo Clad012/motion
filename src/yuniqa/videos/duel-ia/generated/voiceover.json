@@ -1,0 +1,677 @@
+{
+  "voiceId": "jsScnYkNNda9Q1NES5nn",
+  "generatedAt": "2026-09-03T10:31:49.267Z",
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "yuniqa/voiceover/duel-ia/hook.mp3",
+      "durationMs": 4180,
+      "tailMs": 250,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deux",
+          "startMs": 0,
+          "endMs": 232
+        },
+        {
+          "text": "IA.",
+          "startMs": 290,
+          "endMs": 639
+        },
+        {
+          "text": "La",
+          "startMs": 755,
+          "endMs": 871
+        },
+        {
+          "text": "même",
+          "startMs": 917,
+          "endMs": 1068
+        },
+        {
+          "text": "question.",
+          "startMs": 1103,
+          "endMs": 1533
+        },
+        {
+          "text": "L'une",
+          "startMs": 1672,
+          "endMs": 1904
+        },
+        {
+          "text": "va",
+          "startMs": 1927,
+          "endMs": 2009
+        },
+        {
+          "text": "te",
+          "startMs": 2055,
+          "endMs": 2136
+        },
+        {
+          "text": "faire",
+          "startMs": 2183,
+          "endMs": 2403
+        },
+        {
+          "text": "perdre",
+          "startMs": 2426,
+          "endMs": 2728
+        },
+        {
+          "text": "dix",
+          "startMs": 2775,
+          "endMs": 2879
+        },
+        {
+          "text": "minutes,",
+          "startMs": 2902,
+          "endMs": 3286
+        },
+        {
+          "text": "l'autre",
+          "startMs": 3402,
+          "endMs": 3738
+        },
+        {
+          "text": "non.",
+          "startMs": 3785,
+          "endMs": 4180
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "file": "yuniqa/voiceover/duel-ia/question.mp3",
+      "durationMs": 2508,
+      "tailMs": 250,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "J'envoie",
+          "startMs": 0,
+          "endMs": 406
+        },
+        {
+          "text": "sur",
+          "startMs": 430,
+          "endMs": 546
+        },
+        {
+          "text": "les",
+          "startMs": 580,
+          "endMs": 673
+        },
+        {
+          "text": "deux",
+          "startMs": 708,
+          "endMs": 836
+        },
+        {
+          "text": "en",
+          "startMs": 859,
+          "endMs": 906
+        },
+        {
+          "text": "même",
+          "startMs": 929,
+          "endMs": 1080
+        },
+        {
+          "text": "temps",
+          "startMs": 1103,
+          "endMs": 1289
+        },
+        {
+          "text": ":",
+          "startMs": 1312,
+          "endMs": 1335
+        },
+        {
+          "text": "on",
+          "startMs": 1474,
+          "endMs": 1556
+        },
+        {
+          "text": "mange",
+          "startMs": 1602,
+          "endMs": 1776
+        },
+        {
+          "text": "quoi",
+          "startMs": 1800,
+          "endMs": 1916
+        },
+        {
+          "text": "ce",
+          "startMs": 1950,
+          "endMs": 2055
+        },
+        {
+          "text": "soir",
+          "startMs": 2090,
+          "endMs": 2310
+        },
+        {
+          "text": "?",
+          "startMs": 2368,
+          "endMs": 2508
+        }
+      ]
+    },
+    {
+      "id": "gauche",
+      "file": "yuniqa/voiceover/duel-ia/gauche.mp3",
+      "durationMs": 3994,
+      "tailMs": 300,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "À",
+          "startMs": 0,
+          "endMs": 104
+        },
+        {
+          "text": "gauche",
+          "startMs": 197,
+          "endMs": 476
+        },
+        {
+          "text": ":",
+          "startMs": 522,
+          "endMs": 546
+        },
+        {
+          "text": "donnez-moi",
+          "startMs": 615,
+          "endMs": 1010
+        },
+        {
+          "text": "vos",
+          "startMs": 1045,
+          "endMs": 1149
+        },
+        {
+          "text": "préférences,",
+          "startMs": 1173,
+          "endMs": 1753
+        },
+        {
+          "text": "vos",
+          "startMs": 1811,
+          "endMs": 1974
+        },
+        {
+          "text": "allergies,",
+          "startMs": 2043,
+          "endMs": 2519
+        },
+        {
+          "text": "et",
+          "startMs": 2543,
+          "endMs": 2670
+        },
+        {
+          "text": "ce",
+          "startMs": 2717,
+          "endMs": 2810
+        },
+        {
+          "text": "qu'il",
+          "startMs": 2856,
+          "endMs": 2984
+        },
+        {
+          "text": "y",
+          "startMs": 3030,
+          "endMs": 3053
+        },
+        {
+          "text": "a",
+          "startMs": 3088,
+          "endMs": 3111
+        },
+        {
+          "text": "dans",
+          "startMs": 3158,
+          "endMs": 3274
+        },
+        {
+          "text": "votre",
+          "startMs": 3297,
+          "endMs": 3495
+        },
+        {
+          "text": "frigo.",
+          "startMs": 3541,
+          "endMs": 3994
+        }
+      ]
+    },
+    {
+      "id": "droite",
+      "file": "yuniqa/voiceover/duel-ia/droite.mp3",
+      "durationMs": 4969,
+      "tailMs": 350,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "À",
+          "startMs": 0,
+          "endMs": 93
+        },
+        {
+          "text": "droite",
+          "startMs": 174,
+          "endMs": 488
+        },
+        {
+          "text": ":",
+          "startMs": 511,
+          "endMs": 534
+        },
+        {
+          "text": "allergique",
+          "startMs": 592,
+          "endMs": 1091
+        },
+        {
+          "text": "aux",
+          "startMs": 1115,
+          "endMs": 1184
+        },
+        {
+          "text": "fruits",
+          "startMs": 1207,
+          "endMs": 1416
+        },
+        {
+          "text": "de",
+          "startMs": 1440,
+          "endMs": 1498
+        },
+        {
+          "text": "mer,",
+          "startMs": 1544,
+          "endMs": 1811
+        },
+        {
+          "text": "il",
+          "startMs": 1858,
+          "endMs": 1962
+        },
+        {
+          "text": "te",
+          "startMs": 2009,
+          "endMs": 2067
+        },
+        {
+          "text": "reste",
+          "startMs": 2136,
+          "endMs": 2368
+        },
+        {
+          "text": "du",
+          "startMs": 2415,
+          "endMs": 2508
+        },
+        {
+          "text": "poulet,",
+          "startMs": 2554,
+          "endMs": 2902
+        },
+        {
+          "text": "douze",
+          "startMs": 2995,
+          "endMs": 3251
+        },
+        {
+          "text": "euros",
+          "startMs": 3274,
+          "endMs": 3460
+        },
+        {
+          "text": "de",
+          "startMs": 3495,
+          "endMs": 3564
+        },
+        {
+          "text": "budget.",
+          "startMs": 3611,
+          "endMs": 3982
+        },
+        {
+          "text": "Voilà",
+          "startMs": 4063,
+          "endMs": 4319
+        },
+        {
+          "text": "ton",
+          "startMs": 4377,
+          "endMs": 4493
+        },
+        {
+          "text": "dîner.",
+          "startMs": 4528,
+          "endMs": 4969
+        }
+      ]
+    },
+    {
+      "id": "round2",
+      "file": "yuniqa/voiceover/duel-ia/round2.mp3",
+      "durationMs": 2879,
+      "tailMs": 250,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Deuxième",
+          "startMs": 0,
+          "endMs": 372
+        },
+        {
+          "text": "message,",
+          "startMs": 395,
+          "endMs": 882
+        },
+        {
+          "text": "encore",
+          "startMs": 906,
+          "endMs": 1173
+        },
+        {
+          "text": "plus",
+          "startMs": 1196,
+          "endMs": 1347
+        },
+        {
+          "text": "vague",
+          "startMs": 1370,
+          "endMs": 1649
+        },
+        {
+          "text": ":",
+          "startMs": 1683,
+          "endMs": 1707
+        },
+        {
+          "text": "relance",
+          "startMs": 1869,
+          "endMs": 2252
+        },
+        {
+          "text": "le",
+          "startMs": 2276,
+          "endMs": 2345
+        },
+        {
+          "text": "client.",
+          "startMs": 2380,
+          "endMs": 2879
+        }
+      ]
+    },
+    {
+      "id": "round2-resultat",
+      "file": "yuniqa/voiceover/duel-ia/round2-resultat.mp3",
+      "durationMs": 5387,
+      "tailMs": 400,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "À",
+          "startMs": 0,
+          "endMs": 104
+        },
+        {
+          "text": "gauche",
+          "startMs": 197,
+          "endMs": 476
+        },
+        {
+          "text": ":",
+          "startMs": 499,
+          "endMs": 522
+        },
+        {
+          "text": "quel",
+          "startMs": 580,
+          "endMs": 755
+        },
+        {
+          "text": "client",
+          "startMs": 801,
+          "endMs": 1080
+        },
+        {
+          "text": "?",
+          "startMs": 1126,
+          "endMs": 1161
+        },
+        {
+          "text": "À",
+          "startMs": 1242,
+          "endMs": 1312
+        },
+        {
+          "text": "droite",
+          "startMs": 1382,
+          "endMs": 1672
+        },
+        {
+          "text": ":",
+          "startMs": 1707,
+          "endMs": 1741
+        },
+        {
+          "text": "Marc,",
+          "startMs": 1823,
+          "endMs": 2218
+        },
+        {
+          "text": "devis",
+          "startMs": 2252,
+          "endMs": 2508
+        },
+        {
+          "text": "du",
+          "startMs": 2531,
+          "endMs": 2612
+        },
+        {
+          "text": "douze,",
+          "startMs": 2659,
+          "endMs": 3007
+        },
+        {
+          "text": "six",
+          "startMs": 3065,
+          "endMs": 3262
+        },
+        {
+          "text": "jours",
+          "startMs": 3286,
+          "endMs": 3553
+        },
+        {
+          "text": "sans",
+          "startMs": 3576,
+          "endMs": 3715
+        },
+        {
+          "text": "réponse.",
+          "startMs": 3738,
+          "endMs": 4214
+        },
+        {
+          "text": "Le",
+          "startMs": 4412,
+          "endMs": 4528
+        },
+        {
+          "text": "mail",
+          "startMs": 4586,
+          "endMs": 4760
+        },
+        {
+          "text": "est",
+          "startMs": 4818,
+          "endMs": 4888
+        },
+        {
+          "text": "écrit.",
+          "startMs": 4969,
+          "endMs": 5387
+        }
+      ]
+    },
+    {
+      "id": "verdict",
+      "file": "yuniqa/voiceover/duel-ia/verdict.mp3",
+      "durationMs": 2461,
+      "tailMs": 450,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "L'une",
+          "startMs": 0,
+          "endMs": 255
+        },
+        {
+          "text": "te",
+          "startMs": 279,
+          "endMs": 348
+        },
+        {
+          "text": "demande",
+          "startMs": 406,
+          "endMs": 697
+        },
+        {
+          "text": "qui",
+          "startMs": 731,
+          "endMs": 836
+        },
+        {
+          "text": "tu",
+          "startMs": 882,
+          "endMs": 987
+        },
+        {
+          "text": "es.",
+          "startMs": 1103,
+          "endMs": 1184
+        },
+        {
+          "text": "L'autre",
+          "startMs": 1324,
+          "endMs": 1649
+        },
+        {
+          "text": "le",
+          "startMs": 1683,
+          "endMs": 1753
+        },
+        {
+          "text": "sait",
+          "startMs": 1800,
+          "endMs": 1927
+        },
+        {
+          "text": "déjà.",
+          "startMs": 1950,
+          "endMs": 2461
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "file": "yuniqa/voiceover/duel-ia/reveal.mp3",
+      "durationMs": 1672,
+      "tailMs": 900,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Celle",
+          "startMs": 0,
+          "endMs": 255
+        },
+        {
+          "text": "de",
+          "startMs": 279,
+          "endMs": 337
+        },
+        {
+          "text": "droite,",
+          "startMs": 372,
+          "endMs": 755
+        },
+        {
+          "text": "c'est",
+          "startMs": 801,
+          "endMs": 987
+        },
+        {
+          "text": "Yuniqa.",
+          "startMs": 1022,
+          "endMs": 1672
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "yuniqa/voiceover/duel-ia/cta.mp3",
+      "durationMs": 2322,
+      "tailMs": 1100,
+      "modelId": "eleven_multilingual_v2",
+      "words": [
+        {
+          "text": "Arrête",
+          "startMs": 0,
+          "endMs": 313
+        },
+        {
+          "text": "de",
+          "startMs": 337,
+          "endMs": 395
+        },
+        {
+          "text": "tout",
+          "startMs": 453,
+          "endMs": 580
+        },
+        {
+          "text": "réexpliquer.",
+          "startMs": 604,
+          "endMs": 1149
+        },
+        {
+          "text": "Le",
+          "startMs": 1265,
+          "endMs": 1358
+        },
+        {
+          "text": "lien",
+          "startMs": 1393,
+          "endMs": 1579
+        },
+        {
+          "text": "est",
+          "startMs": 1614,
+          "endMs": 1683
+        },
+        {
+          "text": "en",
+          "startMs": 1753,
+          "endMs": 1811
+        },
+        {
+          "text": "bio.",
+          "startMs": 1846,
+          "endMs": 2322
+        }
+      ]
+    }
+  ]
+}
