@@ -1,11 +1,11 @@
 {
   "voiceId": "JBFqnCBsd6RMkjVDRZzb",
-  "generatedAt": "2026-09-24T14:31:03.958Z",
+  "generatedAt": "2026-09-24T15:49:42.759Z",
   "scenes": [
     {
       "id": "hook",
       "file": "generic/voiceover/top-5-prompts/hook.mp3",
-      "durationMs": 4830,
+      "durationMs": 5341,
       "tailMs": 300,
       "modelId": "eleven_multilingual_v2",
       "words": [
@@ -15,126 +15,161 @@
           "endMs": 337
         },
         {
-          "text": "prompts",
+          "text": "Claude",
           "startMs": 383,
-          "endMs": 731
+          "endMs": 662
+        },
+        {
+          "text": "prompts",
+          "startMs": 708,
+          "endMs": 1045
         },
         {
           "text": "that",
-          "startMs": 766,
-          "endMs": 894
+          "startMs": 1103,
+          "endMs": 1254
         },
         {
-          "text": "make",
-          "startMs": 940,
-          "endMs": 1103
+          "text": "actually",
+          "startMs": 1300,
+          "endMs": 1649
         },
         {
-          "text": "Claude",
-          "startMs": 1149,
-          "endMs": 1498
+          "text": "save",
+          "startMs": 1695,
+          "endMs": 1927
         },
         {
-          "text": "way",
-          "startMs": 1533,
-          "endMs": 1695
+          "text": "me",
+          "startMs": 1962,
+          "endMs": 2043
         },
         {
-          "text": "more",
-          "startMs": 1753,
-          "endMs": 1892
-        },
-        {
-          "text": "useful.",
-          "startMs": 1950,
-          "endMs": 2531
+          "text": "time.",
+          "startMs": 2101,
+          "endMs": 2519
         },
         {
           "text": "Number",
-          "startMs": 2949,
-          "endMs": 3228
+          "startMs": 2937,
+          "endMs": 3204
         },
         {
           "text": "one",
-          "startMs": 3309,
-          "endMs": 3518
+          "startMs": 3274,
+          "endMs": 3437
         },
         {
-          "text": "changes",
-          "startMs": 3564,
-          "endMs": 3947
+          "text": "is",
+          "startMs": 3471,
+          "endMs": 3553
         },
         {
-          "text": "everything.",
-          "startMs": 4017,
-          "endMs": 4830
+          "text": "the",
+          "startMs": 3599,
+          "endMs": 3669
+        },
+        {
+          "text": "one",
+          "startMs": 3750,
+          "endMs": 3913
+        },
+        {
+          "text": "nobody",
+          "startMs": 3959,
+          "endMs": 4238
+        },
+        {
+          "text": "uses.",
+          "startMs": 4307,
+          "endMs": 5341
         }
       ]
     },
     {
       "id": "p5",
       "file": "generic/voiceover/top-5-prompts/p5.mp3",
-      "durationMs": 3808,
-      "tailMs": 500,
+      "durationMs": 6316,
+      "tailMs": 700,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
-          "text": "Number",
+          "text": "Five.",
           "startMs": 0,
-          "endMs": 313
+          "endMs": 639
         },
         {
-          "text": "five.",
-          "startMs": 372,
-          "endMs": 789
-        },
-        {
-          "text": "Ask",
+          "text": "Cut",
           "startMs": 952,
-          "endMs": 1219
+          "endMs": 1161
         },
         {
-          "text": "me",
-          "startMs": 1277,
+          "text": "this",
+          "startMs": 1207,
           "endMs": 1358
         },
         {
-          "text": "questions",
-          "startMs": 1416,
-          "endMs": 1869
+          "text": "email",
+          "startMs": 1428,
+          "endMs": 1753
         },
         {
-          "text": "until",
-          "startMs": 1916,
-          "endMs": 2125
+          "text": "in",
+          "startMs": 1811,
+          "endMs": 1881
         },
         {
-          "text": "you",
-          "startMs": 2171,
-          "endMs": 2241
+          "text": "half,",
+          "startMs": 1962,
+          "endMs": 2299
         },
         {
-          "text": "have",
-          "startMs": 2287,
-          "endMs": 2415
+          "text": "and",
+          "startMs": 2322,
+          "endMs": 2450
         },
         {
-          "text": "enough",
-          "startMs": 2438,
-          "endMs": 2647
+          "text": "keep",
+          "startMs": 2508,
+          "endMs": 2705
         },
         {
-          "text": "context.",
-          "startMs": 2705,
-          "endMs": 3808
+          "text": "every",
+          "startMs": 2775,
+          "endMs": 3030
+        },
+        {
+          "text": "fact.",
+          "startMs": 3088,
+          "endMs": 3599
+        },
+        {
+          "text": "Short",
+          "startMs": 4087,
+          "endMs": 4377
+        },
+        {
+          "text": "emails",
+          "startMs": 4435,
+          "endMs": 4818
+        },
+        {
+          "text": "get",
+          "startMs": 4865,
+          "endMs": 5016
+        },
+        {
+          "text": "answered.",
+          "startMs": 5062,
+          "endMs": 6316
         }
       ]
     },
     {
       "id": "p4",
       "file": "generic/voiceover/top-5-prompts/p4.mp3",
-      "durationMs": 3297,
-      "tailMs": 500,
+      "durationMs": 5712,
+      "tailMs": 700,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
@@ -143,295 +178,385 @@
           "endMs": 522
         },
         {
-          "text": "List",
-          "startMs": 755,
-          "endMs": 1022
+          "text": "Ask",
+          "startMs": 662,
+          "endMs": 952
         },
         {
-          "text": "your",
-          "startMs": 1068,
+          "text": "for",
+          "startMs": 998,
+          "endMs": 1080
+        },
+        {
+          "text": "the",
+          "startMs": 1126,
           "endMs": 1196
         },
         {
-          "text": "assumptions",
-          "startMs": 1242,
-          "endMs": 1776
+          "text": "twenty",
+          "startMs": 1231,
+          "endMs": 1521
         },
         {
-          "text": "before",
-          "startMs": 1823,
+          "text": "percent",
+          "startMs": 1567,
+          "endMs": 1904
+        },
+        {
+          "text": "that",
+          "startMs": 1950,
           "endMs": 2078
         },
         {
-          "text": "you",
+          "text": "gives",
           "startMs": 2113,
-          "endMs": 2194
+          "endMs": 2310
         },
         {
-          "text": "answer.",
-          "startMs": 2276,
-          "endMs": 3297
+          "text": "eighty",
+          "startMs": 2392,
+          "endMs": 2635
+        },
+        {
+          "text": "percent",
+          "startMs": 2682,
+          "endMs": 3019
+        },
+        {
+          "text": "of",
+          "startMs": 3065,
+          "endMs": 3111
+        },
+        {
+          "text": "the",
+          "startMs": 3158,
+          "endMs": 3228
+        },
+        {
+          "text": "results.",
+          "startMs": 3274,
+          "endMs": 3808
+        },
+        {
+          "text": "You",
+          "startMs": 4005,
+          "endMs": 4133
+        },
+        {
+          "text": "skip",
+          "startMs": 4203,
+          "endMs": 4423
+        },
+        {
+          "text": "the",
+          "startMs": 4481,
+          "endMs": 4551
+        },
+        {
+          "text": "noise.",
+          "startMs": 4609,
+          "endMs": 5712
         }
       ]
     },
     {
       "id": "p3",
       "file": "generic/voiceover/top-5-prompts/p3.mp3",
-      "durationMs": 4505,
-      "tailMs": 500,
+      "durationMs": 5108,
+      "tailMs": 900,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
           "text": "Three.",
           "startMs": 0,
-          "endMs": 569
+          "endMs": 557
         },
         {
-          "text": "Give",
-          "startMs": 987,
-          "endMs": 1173
+          "text": "Paste",
+          "startMs": 720,
+          "endMs": 998
         },
         {
-          "text": "me",
-          "startMs": 1219,
-          "endMs": 1300
+          "text": "your",
+          "startMs": 1033,
+          "endMs": 1149
         },
         {
-          "text": "three",
-          "startMs": 1347,
-          "endMs": 1556
+          "text": "messy",
+          "startMs": 1196,
+          "endMs": 1440
         },
         {
-          "text": "options,",
-          "startMs": 1602,
-          "endMs": 2171
+          "text": "brain",
+          "startMs": 1486,
+          "endMs": 1707
         },
         {
-          "text": "then",
-          "startMs": 2229,
-          "endMs": 2392
-        },
-        {
-          "text": "pick",
-          "startMs": 2461,
-          "endMs": 2659
-        },
-        {
-          "text": "one",
-          "startMs": 2740,
-          "endMs": 2972
+          "text": "dump,",
+          "startMs": 1765,
+          "endMs": 2101
         },
         {
           "text": "and",
-          "startMs": 3007,
-          "endMs": 3088
+          "startMs": 2171,
+          "endMs": 2310
         },
         {
-          "text": "say",
-          "startMs": 3146,
-          "endMs": 3344
+          "text": "ask",
+          "startMs": 2368,
+          "endMs": 2554
         },
         {
-          "text": "why.",
-          "startMs": 3402,
-          "endMs": 4505
+          "text": "for",
+          "startMs": 2612,
+          "endMs": 2717
+        },
+        {
+          "text": "a",
+          "startMs": 2763,
+          "endMs": 2786
+        },
+        {
+          "text": "plan",
+          "startMs": 2844,
+          "endMs": 3135
+        },
+        {
+          "text": "with",
+          "startMs": 3193,
+          "endMs": 3332
+        },
+        {
+          "text": "time",
+          "startMs": 3390,
+          "endMs": 3657
+        },
+        {
+          "text": "estimates.",
+          "startMs": 3704,
+          "endMs": 5108
         }
       ]
     },
     {
       "id": "p2",
       "file": "generic/voiceover/top-5-prompts/p2.mp3",
-      "durationMs": 3947,
-      "tailMs": 500,
+      "durationMs": 4923,
+      "tailMs": 900,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
           "text": "Two.",
           "startMs": 0,
-          "endMs": 476
+          "endMs": 511
         },
         {
-          "text": "Review",
-          "startMs": 708,
-          "endMs": 1010
+          "text": "Explain",
+          "startMs": 673,
+          "endMs": 1103
         },
         {
-          "text": "your",
-          "startMs": 1057,
-          "endMs": 1196
+          "text": "it",
+          "startMs": 1149,
+          "endMs": 1219
         },
         {
-          "text": "own",
-          "startMs": 1242,
-          "endMs": 1358
-        },
-        {
-          "text": "answer",
-          "startMs": 1416,
-          "endMs": 1695
-        },
-        {
-          "text": "like",
-          "startMs": 1741,
-          "endMs": 1904
-        },
-        {
-          "text": "a",
-          "startMs": 1927,
-          "endMs": 1950
-        },
-        {
-          "text": "strict",
-          "startMs": 2009,
-          "endMs": 2287
-        },
-        {
-          "text": "editor,",
-          "startMs": 2345,
-          "endMs": 2821
+          "text": "simply,",
+          "startMs": 1277,
+          "endMs": 1753
         },
         {
           "text": "then",
-          "startMs": 2937,
-          "endMs": 3111
+          "startMs": 1823,
+          "endMs": 1974
         },
         {
-          "text": "fix",
-          "startMs": 3193,
-          "endMs": 3413
+          "text": "quiz",
+          "startMs": 2055,
+          "endMs": 2276
         },
         {
-          "text": "it.",
-          "startMs": 3495,
-          "endMs": 3947
+          "text": "me.",
+          "startMs": 2345,
+          "endMs": 2601
+        },
+        {
+          "text": "That",
+          "startMs": 2717,
+          "endMs": 2914
+        },
+        {
+          "text": "is",
+          "startMs": 2961,
+          "endMs": 3030
+        },
+        {
+          "text": "how",
+          "startMs": 3077,
+          "endMs": 3170
+        },
+        {
+          "text": "it",
+          "startMs": 3216,
+          "endMs": 3286
+        },
+        {
+          "text": "actually",
+          "startMs": 3320,
+          "endMs": 3669
+        },
+        {
+          "text": "sticks.",
+          "startMs": 3715,
+          "endMs": 4923
         }
       ]
     },
     {
       "id": "p1",
       "file": "generic/voiceover/top-5-prompts/p1.mp3",
-      "durationMs": 4505,
-      "tailMs": 600,
+      "durationMs": 6362,
+      "tailMs": 700,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
-          "text": "And",
+          "text": "Number",
           "startMs": 0,
-          "endMs": 186
-        },
-        {
-          "text": "number",
-          "startMs": 255,
-          "endMs": 499
+          "endMs": 290
         },
         {
           "text": "one.",
-          "startMs": 569,
-          "endMs": 975
+          "startMs": 372,
+          "endMs": 708
         },
         {
-          "text": "Here",
-          "startMs": 1335,
-          "endMs": 1556
+          "text": "Assume",
+          "startMs": 755,
+          "endMs": 1126
         },
         {
-          "text": "is",
-          "startMs": 1602,
-          "endMs": 1672
+          "text": "my",
+          "startMs": 1161,
+          "endMs": 1242
         },
         {
-          "text": "an",
-          "startMs": 1707,
-          "endMs": 1765
+          "text": "launch",
+          "startMs": 1312,
+          "endMs": 1567
         },
         {
-          "text": "example",
-          "startMs": 1811,
-          "endMs": 2241
+          "text": "failed.",
+          "startMs": 1625,
+          "endMs": 2148
         },
         {
-          "text": "of",
-          "startMs": 2276,
-          "endMs": 2322
+          "text": "What",
+          "startMs": 2635,
+          "endMs": 2821
         },
         {
-          "text": "what",
-          "startMs": 2368,
-          "endMs": 2508
+          "text": "are",
+          "startMs": 2856,
+          "endMs": 2949
         },
         {
-          "text": "I",
-          "startMs": 2566,
-          "endMs": 2589
+          "text": "the",
+          "startMs": 2972,
+          "endMs": 3042
         },
         {
-          "text": "want.",
-          "startMs": 2682,
-          "endMs": 3123
+          "text": "three",
+          "startMs": 3100,
+          "endMs": 3332
         },
         {
-          "text": "Match",
-          "startMs": 3541,
-          "endMs": 3831
+          "text": "most",
+          "startMs": 3402,
+          "endMs": 3587
         },
         {
-          "text": "it.",
-          "startMs": 3901,
-          "endMs": 4505
+          "text": "likely",
+          "startMs": 3657,
+          "endMs": 3947
+        },
+        {
+          "text": "reasons?",
+          "startMs": 4017,
+          "endMs": 4563
+        },
+        {
+          "text": "Now",
+          "startMs": 4702,
+          "endMs": 4841
+        },
+        {
+          "text": "fix",
+          "startMs": 4911,
+          "endMs": 5108
+        },
+        {
+          "text": "them",
+          "startMs": 5166,
+          "endMs": 5271
+        },
+        {
+          "text": "before",
+          "startMs": 5306,
+          "endMs": 5550
+        },
+        {
+          "text": "they",
+          "startMs": 5584,
+          "endMs": 5700
+        },
+        {
+          "text": "happen.",
+          "startMs": 5747,
+          "endMs": 6362
         }
       ]
     },
     {
       "id": "end",
       "file": "generic/voiceover/top-5-prompts/end.mp3",
-      "durationMs": 2926,
+      "durationMs": 2322,
       "tailMs": 900,
       "modelId": "eleven_multilingual_v2",
       "words": [
         {
           "text": "Save",
           "startMs": 0,
-          "endMs": 337
+          "endMs": 302
         },
         {
-          "text": "this",
-          "startMs": 372,
-          "endMs": 557
+          "text": "this,",
+          "startMs": 337,
+          "endMs": 627
         },
         {
-          "text": "for",
-          "startMs": 615,
-          "endMs": 708
+          "text": "and",
+          "startMs": 650,
+          "endMs": 801
         },
         {
-          "text": "your",
-          "startMs": 743,
-          "endMs": 859
+          "text": "try",
+          "startMs": 848,
+          "endMs": 1022
         },
         {
-          "text": "next",
-          "startMs": 917,
-          "endMs": 1138
+          "text": "number",
+          "startMs": 1091,
+          "endMs": 1312
         },
         {
-          "text": "chat.",
-          "startMs": 1173,
-          "endMs": 1625
+          "text": "one",
+          "startMs": 1370,
+          "endMs": 1533
         },
         {
-          "text": "Follow",
-          "startMs": 1788,
-          "endMs": 2078
-        },
-        {
-          "text": "for",
-          "startMs": 2136,
-          "endMs": 2241
-        },
-        {
-          "text": "more.",
-          "startMs": 2287,
-          "endMs": 2926
+          "text": "tonight.",
+          "startMs": 1567,
+          "endMs": 2322
         }
       ]
     }

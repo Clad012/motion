@@ -3,6 +3,20 @@ import { useTheme } from "../../engine/theme";
 import type { ReactNode } from "react";
 import { SCREEN_HEIGHT_BASE } from "../device/IPhone";
 
+/** Text being typed in the composer: appears letter by letter from `from`, leaves at `sendAt`. */
+export type ChatDraft = {
+  readonly text: string;
+  readonly from: number;
+  readonly sendAt: number;
+  readonly charsPerFrame?: number;
+};
+
+export const DEFAULT_TYPING_SPEED = 2;
+
+/** Frames needed to type `text` at `charsPerFrame`. Use it to time the send and the typing sound. */
+export const typingFrames = (text: string, charsPerFrame = DEFAULT_TYPING_SPEED): number =>
+  Math.ceil(text.length / charsPerFrame);
+
 export type ChatMessage = {
   readonly id: string;
   readonly role: "user" | "assistant";
@@ -23,10 +37,12 @@ type ChatScreenProps = {
   readonly avatarBackground?: string;
   readonly accent?: string;
   /**
-   * Share of the screen height kept empty above the composer, so captions drawn
-   * over the lower part of the phone never cover the last bubble. 0.2 suits CloseUpStage.
+   * Share of the screen height kept empty under the composer, so captions drawn over the
+   * lower part of the phone never cover the thread or the text being typed. 0.2 suits CloseUpStage.
    */
   readonly bottomReserve?: number;
+  /** Something being typed in the composer before it is sent. */
+  readonly draft?: ChatDraft;
 };
 
 const TypingDots: React.FC<{ readonly scale: number }> = ({ scale }) => {
@@ -73,16 +89,35 @@ export const ChatScreen: React.FC<ChatScreenProps> = ({
   avatarBackground,
   accent,
   bottomReserve = 0,
+  draft,
 }) => {
   const { colors, fonts } = useTheme();
   const frame = useCurrentFrame();
   const visible = messages.filter((m) => frame >= m.from - (m.typingFor ?? 0));
+  const typing = draft !== undefined && frame >= draft.from && frame < draft.sendAt;
+  const typed = draft
+    ? Math.min(
+        draft.text.length,
+        Math.max(0, Math.floor((frame - draft.from) * (draft.charsPerFrame ?? DEFAULT_TYPING_SPEED))),
+      )
+    : 0;
   // The thread scrolls up once it fills the screen.
   const overflow = Math.max(0, visible.length - 3) * 108 * scale;
   const scroll = interpolate(frame, [0, 1], [0, 0]) - overflow;
 
   return (
-    <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", fontFamily: fonts.sans }}>
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        boxSizing: "border-box",
+        display: "flex",
+        flexDirection: "column",
+        fontFamily: fonts.sans,
+        // The reserve sits under the composer, so both the thread and what is being typed stay above the captions.
+        ...(bottomReserve > 0 ? { paddingBottom: bottomReserve * SCREEN_HEIGHT_BASE * scale } : {}),
+      }}
+    >
       {/* App header */}
       <div
         style={{
@@ -119,7 +154,6 @@ export const ChatScreen: React.FC<ChatScreenProps> = ({
           flexDirection: "column",
           gap: 14 * scale,
           justifyContent: "flex-end",
-          ...(bottomReserve > 0 ? { paddingBottom: (20 + bottomReserve * SCREEN_HEIGHT_BASE) * scale } : {}),
           translate: `0px ${Math.min(0, scroll)}px`,
         }}
       >
@@ -146,6 +180,7 @@ export const ChatScreen: React.FC<ChatScreenProps> = ({
                 backgroundColor: isUser ? (accent ?? colors.ink) : "rgba(240,239,236,0.10)",
                 color: isUser ? colors.surfaceRaised : colors.ink,
                 fontSize: 25 * scale,
+                whiteSpace: "pre-line",
                 fontWeight: 500,
                 lineHeight: 1.32,
                 opacity: interpolate(frame, [message.from, message.from + 5], [0, 1], {
@@ -181,21 +216,39 @@ export const ChatScreen: React.FC<ChatScreenProps> = ({
           padding: `${14 * scale}px ${20 * scale}px ${30 * scale}px`,
         }}
       >
-        <div
-          style={{
-            flex: 1,
-            height: 52 * scale,
-            borderRadius: 999,
-            border: "1.5px solid rgba(240,239,236,0.16)",
-            display: "flex",
-            alignItems: "center",
-            padding: `0 ${22 * scale}px`,
-            fontSize: 22 * scale,
-            color: "rgba(240,239,236,0.35)",
-          }}
-        >
-          Message
-        </div>
+        {typing && draft ? (
+          <div
+            style={{
+              flex: 1,
+              minHeight: 52 * scale,
+              borderRadius: 26 * scale,
+              border: `1.5px solid ${colors.inkMuted}`,
+              padding: `${12 * scale}px ${22 * scale}px`,
+              fontSize: 22 * scale,
+              lineHeight: 1.3,
+              color: colors.ink,
+            }}
+          >
+            {draft.text.slice(0, typed)}
+            <span style={{ opacity: Math.floor(frame / 8) % 2 === 0 ? 1 : 0 }}>|</span>
+          </div>
+        ) : (
+          <div
+            style={{
+              flex: 1,
+              height: 52 * scale,
+              borderRadius: 999,
+              border: "1.5px solid rgba(240,239,236,0.16)",
+              display: "flex",
+              alignItems: "center",
+              padding: `0 ${22 * scale}px`,
+              fontSize: 22 * scale,
+              color: "rgba(240,239,236,0.35)",
+            }}
+          >
+            Message
+          </div>
+        )}
         <div
           style={{
             width: 52 * scale,
@@ -205,6 +258,14 @@ export const ChatScreen: React.FC<ChatScreenProps> = ({
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            ...(draft
+              ? {
+                  scale: `${interpolate(frame, [draft.sendAt - 5, draft.sendAt - 1, draft.sendAt + 4], [1, 0.82, 1], {
+                    extrapolateLeft: "clamp",
+                    extrapolateRight: "clamp",
+                  })}`,
+                }
+              : {}),
           }}
         >
           <svg width={24 * scale} height={24 * scale} viewBox="0 0 24 24" fill="none">

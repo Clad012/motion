@@ -45,7 +45,7 @@ Every component reads colours and fonts from `useTheme()`. Positions are in fram
 
 | Component | Props | Notes |
 | --- | --- | --- |
-| `ChatScreen` | `scale`, `title`, `messages: ChatMessage[]`, `avatar?`, `avatarBackground?`, `accent?`, `bottomReserve?` | A messaging app: header, bubbles that spring in, typing dots (`typingFor` frames before a reply), composer. Pass a brand mark as `avatar`. |
+| `ChatScreen` | `scale`, `title`, `messages: ChatMessage[]`, `draft?`, `avatar?`, `avatarBackground?`, `accent?`, `bottomReserve?` | A messaging app: header, bubbles that spring in, typing dots (`typingFor` frames before a reply), composer. `draft: { text, from, sendAt }` types a message letter by letter in the composer before it is sent; `typingFrames(text)` gives its length, to time the send and a keyboard sound. Newlines in bubbles are kept. |
 | `ChatMessage` | `{ id, role: "user" \| "assistant", text, from, typingFor? }` | `from` is the local frame the bubble lands on; `from: -200` shows it from the start. |
 | `ChatBubble` | `role`, `from`, `width`, `children` | A single bubble, outside a phone. |
 
@@ -76,7 +76,7 @@ Every component reads colours and fonts from `useTheme()`. Positions are in fram
 | `ResultRow` (ui) | `label`, `from`, `width`, `glyph?`, `accent?`, `strike?` | A result line with a round icon. |
 | `AppTile` (ui) | `label`, `glyph`, `size?`, `price?`, `tone?` | An app icon tile, optionally with a price badge. |
 | `Glyph` (icons) | `name`, `size`, `color`, `strokeWidth?` | Line icons: tasks, notes, budget, meals, mail, ai, bell, check, moon, clock, camera, cross, flame. |
-| `Sfx` (audio) | `src`, `from`, `volume` | A sound file on a local frame. |
+| `Sfx` (audio) | `src`, `from`, `volume`, `durationInFrames?` | A sound file on a local frame, optionally cut short (a keyboard loop that stops with the typing). |
 | `createNamedSfx(bank)` (audio) | | Returns a typed `<Sfx name="…" from={…} />` for a bank `{ name: { file, volume } }`. |
 | `voiceLevel(words, frame, fps)` (voice) | | 0..1 envelope of the voice (fast attack, slow release), to drive anything by speech. |
 
