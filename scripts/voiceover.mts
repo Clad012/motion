@@ -5,6 +5,13 @@
 //   pnpm voiceover --video=<id> --model=eleven_v3
 //   pnpm voiceover --list                  videos that have a script
 //
+// Without an ElevenLabs key (the audio was made elsewhere, e.g. through another tool):
+//   pnpm voiceover --video=<id> --from-files           one MP3 per scene, already in
+//                                                      public/<project>/voiceover/<id>/<scene>.mp3
+//   pnpm voiceover --video=<id> --from-file=take.mp3   one MP3 for the whole script, cut per scene
+// Word timings then come from faster-whisper (--whisper-model=small by default); with
+// --from-files and no faster-whisper, they are estimated from the text.
+//
 // The script module exports SCRIPT (ScriptLine[]) and VOICE_ID; it may also export
 // MODEL_ID, VOICE_SETTINGS and LANGUAGE_CODE (ISO 639-1, sent to models that accept
 // it — every one except eleven_multilingual_v2). Output:
@@ -15,6 +22,8 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import type { ScriptLine, VoiceoverManifest, VoiceoverScene, VoiceoverWord } from "../src/generic/engine/voiceover.ts";
+import { alignWords, scriptWords, spreadWords, type HeardWord } from "./lib/align.mts";
+import { audioDurationMs, cutAudio, silences, speechEndMs, transcribe, whisperAvailable } from "./lib/audio.mts";
 
 // eleven_multilingual_v2 keeps the delivery tight; eleven_v3 is more expressive but
 // reads ~40% slower and rejects request stitching (previous_text / next_text).
@@ -82,9 +91,16 @@ if (!place) {
   process.exit(1);
 }
 
-const apiKey = process.env.ELEVENLABS_API_KEY;
-if (!apiKey) {
-  console.error("ELEVENLABS_API_KEY is missing. Copy .env.example to .env.local and fill it in.");
+const fromFiles = process.argv.includes("--from-files");
+const fromFile = arg("from-file");
+const external = fromFiles || fromFile !== null;
+
+const apiKey = process.env.ELEVENLABS_API_KEY ?? "";
+if (!external && !apiKey) {
+  console.error(
+    "ELEVENLABS_API_KEY is missing. Copy .env.example to .env.local and fill it in, or bring your own audio:\n" +
+      "  --from-files (one MP3 per scene) or --from-file=<narration.mp3>.",
+  );
   process.exit(1);
 }
 
@@ -220,17 +236,128 @@ mkdirSync(audioDir, { recursive: true });
 mkdirSync(dirname(manifestPath), { recursive: true });
 const existing = loadExistingManifest();
 
+// ---- Audio made elsewhere: time the script's words on it ----
+
+const whisperModel = arg("whisper-model") ?? "small";
+const externalModelId = arg("model") ?? "external";
+const fullText = script.map((line) => line.voice).join(" ");
+
+const sceneFrom = (line: ScriptLine, words: VoiceoverWord[], durationMs: number): VoiceoverScene => {
+  console.log(`  ${line.id}: ${(durationMs / 1000).toFixed(2)}s, ${words.length} words`);
+  return {
+    id: line.id,
+    file: `${publicFolder}/${line.id}.mp3`,
+    durationMs,
+    tailMs: line.tailMs ?? 300,
+    modelId: externalModelId,
+    words,
+  };
+};
+
+/** --from-files: one MP3 per scene, already in public/. */
+const scenesFromFiles = (): VoiceoverScene[] => {
+  const cachedOf = (line: ScriptLine) => existing?.scenes.find((s) => s.id === line.id);
+  const todo = script.filter((line) => !(only && !only.has(line.id) && cachedOf(line)));
+  const pathOf = (line: ScriptLine) => join(audioDir, `${line.id}.mp3`);
+  const missing = todo.filter((line) => !existsSync(pathOf(line)));
+  if (missing.length > 0) {
+    console.error(
+      `Missing audio. Put one MP3 per scene here:\n${missing.map((l) => `  ${relative(ROOT, pathOf(l))}`).join("\n")}`,
+    );
+    process.exit(1);
+  }
+  let heard = new Map<string, HeardWord[]>();
+  if (whisperAvailable()) {
+    console.log(`  timing words with faster-whisper (${whisperModel})…`);
+    heard = transcribe(todo.map(pathOf), { model: whisperModel, language: mod.LANGUAGE_CODE, prompt: fullText });
+  } else {
+    console.warn("  faster-whisper not found: word timings are estimated from the text (captions may drift).");
+  }
+  return script.map((line) => {
+    const cached = cachedOf(line);
+    if (!todo.includes(line) && cached) {
+      console.log(`  ${line.id}: kept from previous manifest`);
+      return { ...cached, tailMs: line.tailMs ?? 300 };
+    }
+    // Up to where the sound stops, measured on the audio: faster-whisper ends words
+    // early (up to ~0.8 s), which would clip the last syllable.
+    const spokenMs = speechEndMs(pathOf(line));
+    const tokens = scriptWords(line.voice);
+    const got = heard.get(pathOf(line)) ?? [];
+    return sceneFrom(line, got.length > 0 ? alignWords(tokens, got) : spreadWords(tokens, spokenMs), spokenMs);
+  });
+};
+
+/** --from-file: one narration for the whole script, cut between scenes. */
+const scenesFromOneFile = (source: string): VoiceoverScene[] => {
+  if (only) {
+    console.error("--only works with --from-files. With --from-file, every scene is cut from the one take.");
+    process.exit(1);
+  }
+  if (!existsSync(source)) {
+    console.error(`No such file: ${source}`);
+    process.exit(1);
+  }
+  if (!whisperAvailable()) {
+    console.error("--from-file needs faster-whisper to find where each scene starts (pip install faster-whisper).");
+    process.exit(1);
+  }
+  console.log(`  timing words with faster-whisper (${whisperModel})…`);
+  const heard =
+    transcribe([source], { model: whisperModel, language: mod.LANGUAGE_CODE, prompt: fullText }).get(source) ?? [];
+  const tokens = script.map((line) => scriptWords(line.voice));
+  const all = alignWords(tokens.flat(), heard);
+  const perScene: VoiceoverWord[][] = [];
+  let at = 0;
+  for (const list of tokens) {
+    perScene.push(all.slice(at, at + list.length));
+    at += list.length;
+  }
+  const lengthMs = audioDurationMs(source);
+  const pauses = silences(source);
+  // A scene starts in the middle of the real pause before its first word. The
+  // pause is found on the audio: faster-whisper's word ends run early (up to
+  // ~0.8 s), so cutting between its timings could clip the previous line.
+  const starts = perScene.map((words, i) => {
+    if (i === 0) return 0;
+    const firstStart = words[0]?.startMs ?? 0;
+    const previousStart = perScene[i - 1][0]?.startMs ?? 0;
+    const pause = pauses
+      .filter((p) => p.startMs > previousStart && p.startMs < firstStart + 100)
+      .sort((x, y) => Math.abs(x.endMs - firstStart) - Math.abs(y.endMs - firstStart))[0];
+    if (pause) return Math.round((pause.startMs + Math.min(pause.endMs, firstStart)) / 2);
+    const previousEnd = perScene[i - 1].at(-1)?.endMs ?? 0;
+    console.warn(`  ${script[i].id}: no pause found before it; cutting between the words`);
+    return Math.max(previousEnd, Math.round((previousEnd + firstStart) / 2));
+  });
+  return script.map((line, i) => {
+    const start = starts[i];
+    const end = starts[i + 1] ?? lengthMs;
+    const target = join(audioDir, `${line.id}.mp3`);
+    cutAudio(source, target, start, end);
+    const words = perScene[i].map((w) => ({ ...w, startMs: w.startMs - start, endMs: w.endMs - start }));
+    // The pause after the line is not part of it: the scene's own tailMs sets it.
+    return sceneFrom(line, words, speechEndMs(target));
+  });
+};
+
 console.log(`[${place.project}/${videoId}] ${script.length} scenes, voice ${voiceId}`);
 const scenes: VoiceoverScene[] = [];
-for (let i = 0; i < script.length; i++) {
-  const scene = script[i];
-  const cached = existing?.scenes.find((s) => s.id === scene.id);
-  if (only && !only.has(scene.id) && cached) {
-    console.log(`  ${scene.id}: kept from previous manifest`);
-    scenes.push({ ...cached, tailMs: scene.tailMs ?? 300 });
-    continue;
+if (fromFile !== null) {
+  scenes.push(...scenesFromOneFile(resolve(fromFile)));
+} else if (fromFiles) {
+  scenes.push(...scenesFromFiles());
+} else {
+  for (let i = 0; i < script.length; i++) {
+    const scene = script[i];
+    const cached = existing?.scenes.find((s) => s.id === scene.id);
+    if (only && !only.has(scene.id) && cached) {
+      console.log(`  ${scene.id}: kept from previous manifest`);
+      scenes.push({ ...cached, tailMs: scene.tailMs ?? 300 });
+      continue;
+    }
+    scenes.push(await generateScene(i));
   }
-  scenes.push(await generateScene(i));
 }
 
 const manifest: VoiceoverManifest = { voiceId, generatedAt: new Date().toISOString(), scenes };

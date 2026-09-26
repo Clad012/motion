@@ -10,6 +10,7 @@
     "@remotion/fonts": "4.0.520",
     "@remotion/google-fonts": "4.0.520",
     "@remotion/media": "4.0.520",
+    "@remotion/renderer": "4.0.520",
     "@remotion/tailwind-v4": "4.0.520",
     "@remotion/transitions": "4.0.520",
     "@remotion/zod-types": "4.0.520",
@@ -31,18 +32,19 @@
   },
   "scripts": {
     "dev": "remotion studio",
-    "render": "remotion render",
+    "render": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --strip-types scripts/render.mts",
     "still": "remotion still",
     "stills": "node --strip-types scripts/stills.mts",
     "build": "remotion bundle",
-    "lint": "eslint src && tsc",
+    "lint": "eslint src && tsc && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --strip-types scripts/check-voiceover.mts",
     "format": "prettier --write \"src/**/*.{ts,tsx}\" \"scripts/*.mts\"",
     "upgrade": "remotion upgrade",
     "new-video": "node --strip-types scripts/new-video.mts",
-    "voiceover": "node --env-file-if-exists=.env.local --strip-types scripts/voiceover.mts",
+    "voiceover": "node --env-file-if-exists=.env.local --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --strip-types scripts/voiceover.mts",
     "sfx": "node --env-file-if-exists=.env.local --strip-types scripts/sfx.mts",
     "images": "node --env-file-if-exists=.env.local --strip-types scripts/images.mts",
-    "assets": "node --strip-types scripts/fetch-assets.mts"
+    "assets": "node --strip-types scripts/fetch-assets.mts",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --strip-types --test scripts/lib/*.test.mts"
   },
   "sideEffects": [
     "*.css",
