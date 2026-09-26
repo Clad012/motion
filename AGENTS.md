@@ -10,8 +10,20 @@ pnpm new-video --project=<generic|yuniqa> --id=<kebab-id> --template=<starter|ph
 ```
 
 1. Write `script.ts` (story), then `scenes.tsx` (picture). Same scene ids in both, and in `video.tsx`.
-2. `pnpm voiceover --video=<id>`: real voice; scenes re-time themselves. Before that, it plays silent with captions.
-3. `pnpm lint`, then `pnpm stills <Id>` and look at every PNG. Then `pnpm render <Id>`.
+2. Voice. Scenes re-time themselves on it; before it exists, the video plays silent with captions.
+   - With `ELEVENLABS_API_KEY` in `.env.local`: `pnpm voiceover --video=<id>`.
+   - Without a key (the audio was made with another tool): put one MP3 per scene in
+     `public/<project>/voiceover/<id>/<scene>.mp3` and run `pnpm voiceover --video=<id> --from-files`, or give
+     one take of the whole script: `pnpm voiceover --video=<id> --from-file=<take.mp3>` (cut per scene for you).
+     Word timings come from faster-whisper when it is installed.
+   - A line changed: regenerate that scene only, `--only=<scene>`. Never write `generated/voiceover.json` by hand.
+3. `pnpm lint`: code, types, and a voice that still matches the script (a renamed or added scene fails here).
+4. `pnpm render <Id>`, once. It refuses a scripted video with no voice, then prints the length, the size and
+   whether there is sound: that is the check, no need to look at frames.
+
+Faster loops: `pnpm render <Id> --frames=300-420` renders only the part you changed; `--draft` renders at half
+size. A 30 s render takes minutes on a small machine, so render when lint passes, not after every edit.
+`pnpm stills <Id>` makes stills for a person to review.
 
 The best worked example is `src/generic/videos/top-5-prompts`.
 

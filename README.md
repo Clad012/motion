@@ -55,10 +55,11 @@ A video is one folder, `src/<project>/videos/<id>/`:
 | --- | --- |
 | `pnpm new-video --project=<p> --id=<id> [--template=starter\|phone-demo\|split-compare]` | New video, registered |
 | `pnpm voiceover --video=<id>` | Voice + word timings (ElevenLabs). `--only=a,b`, `--list` |
+| `pnpm voiceover --video=<id> --from-files` / `--from-file=<take.mp3>` | Same from audio made elsewhere, no key (timings: faster-whisper) |
 | `pnpm sfx --bank=<module> --set=<name>` / `pnpm images --set=<module>` | Generate sounds / images |
 | `pnpm stills <Id>` | Stills in `out/stills/<Id>/` to check a video |
-| `pnpm render <Id>` | `out/<Id>.mp4` |
-| `pnpm lint` | ESLint + TypeScript |
+| `pnpm render <Id>` | `out/<Id>.mp4`, then length, size and sound. `--draft` (half size), `--frames=a-b` |
+| `pnpm lint` | ESLint + TypeScript + every voice matches its script |
 
 Agents: read [AGENTS.md](AGENTS.md).
 

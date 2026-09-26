@@ -79,9 +79,30 @@ const manifestMatches = (manifest: VoiceoverManifest, script: readonly ScriptLin
   manifest.scenes.length === script.length && script.every((line, i) => manifest.scenes[i]?.id === line.id);
 
 /**
+ * A voice that no longer fits the script is an error, not a silent fallback:
+ * renaming or adding a scene used to drop the whole voiceover without a word.
+ */
+const assertVoiceFitsScript = (id: string, manifest: VoiceoverManifest, script: readonly ScriptLine[]): void => {
+  if (manifest.scenes.length === 0 || manifestMatches(manifest, script)) return;
+  const voiced = new Set(manifest.scenes.map((scene) => scene.id));
+  const unvoiced = script.filter((line) => !voiced.has(line.id)).map((line) => line.id);
+  const fix =
+    unvoiced.length > 0
+      ? `pnpm voiceover --video=<folder> --only=${unvoiced.join(",")}`
+      : "pnpm voiceover --video=<folder> (the scene order changed)";
+  throw new Error(
+    `[${id}] generated/voiceover.json does not match script.ts.\n` +
+      `  script:    ${script.map((line) => line.id).join(", ")}\n` +
+      `  voiceover: ${manifest.scenes.map((scene) => scene.id).join(", ")}\n` +
+      `Regenerate the voice: ${fix}`,
+  );
+};
+
+/**
  * The one to use for a new video. Renders straight away from the script, silent,
  * with captions timed from the text; once `pnpm voiceover --video=<id>` has written
  * a manifest that matches the script, the same scenes play with the real voice.
+ * A manifest that exists but no longer matches the script throws.
  */
 export const defineVideo = ({
   script,
@@ -93,7 +114,9 @@ export const defineVideo = ({
   /** generated/voiceover.json; EMPTY_MANIFEST until the voiceover is generated. */
   readonly manifest: VoiceoverManifest;
   readonly leadInMs?: number;
-}): VideoEntry =>
-  manifestMatches(manifest, script)
+}): VideoEntry => {
+  assertVoiceFitsScript(common.id, manifest, script);
+  return manifestMatches(manifest, script)
     ? fromTimeline(common, buildTimeline(manifest, { leadInMs }))
     : fromTimeline(common, buildSilentTimeline(estimatedScript(script)));
+};

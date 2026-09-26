@@ -101,7 +101,9 @@ Next:
   2. Draw each scene in scenes.tsx; keep the scene ids in video.tsx in sync.
   3. pnpm dev                          → open "${pascal}" in the Studio (silent preview)
   4. pnpm voiceover --video=${id}       → real voice, scenes re-timed from the audio
-  5. pnpm stills ${pascal}              → check frames, then: pnpm render ${pascal}`);
+                                         (no key: --from-files or --from-file=<take.mp3>)
+  5. pnpm lint                          → code, types, voice matches the script
+  6. pnpm render ${pascal}              → out/${pascal}.mp4, checked for length and sound`);
 if (isBrand && existsSync(join(projectDir, "voices.ts"))) {
   console.log(`\nBrand voices are in src/${project}/voices.ts; set VOICE_ID in script.ts to one of them.`);
 }
